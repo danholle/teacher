@@ -1,0 +1,2820 @@
+<book botname="Virtual Dan" ambig="0.7" thresh="1.5">
+  <leadtopics>
+    where howhi weather route howlong cuz risks food camp4 noridge 
+    cost mandm rhein clothing sleepbag tent skills crowd mybio toilet 
+    carry oxy wash praise yes seizure eastrong tibet yaks sherpas 
+    headwall camp5 norman camp6 sumday frostbite kathmandu water abc 
+    mallory aval health typday dzone basecamp rongmon acclim yakdriver
+    yeti gear bye imfine confused rudedude story hi haha whereami hafe
+    goodbye 
+  </leadtopics>
+  <noisewords>
+    a about all also am an and any are aren't as at be been before 
+    but by can could did do does don't ever Everest for from go 
+    going had happens has have he her here his how i if in into is 
+    isn't it it's its Dan kind like me much must my my need now of 
+    off often oh on or our said same say she tell that the their 
+    there therefore these they this those through to too until up 
+    want was we were what when where which while who why will with 
+    would you your 
+  </noisewords>
+  <noise phrase="Hi Dan"/>
+  <noise phrase="Hi Virtual Dan"/>
+  <noise phrase="tell me"/>
+  <noise phrase="tell me about"/>
+  <keywords>
+    defecate urinate
+    1 2 3 4 5 6 advanced afraid avalanche axe bag bags base basecamp 
+    bite bodies buddhist calls camp close col cold cost country 
+    crampons crap crowded danger dangerous dead dehydrated die died 
+    drink drinking dump east equipment expensive experience five 
+    food four frost great headwall heavy high Hillary ice II III 
+    Irvine IV kathmandu Mallory monastery nepal north ok okay one 
+    oxygen packs qualifications rescue rescues ridge risky rongbuk 
+    routing scared shit sick sickness six sleep sleeping sponsor 
+    stories story temples tent tents thank thanks three toilet trash 
+    two understand V VI view warm water wearing yes yeti yourself 
+  </keywords>
+  <key phrase="because it's there"/>
+ 
+  <question topic="story">Tell me a story</question>
+  <question topic="story">Do you have any stories to tell?</question>
+  <answer topic="story" repeat="yes" offer="no" 
+  about="an Everest story">
+    <btw topic="highchair">
+      Well, if all this stuff has been a bit too serious so far, maybe
+      this will help. 
+      <p/>
+      <include answer="highchair"/> 
+      <else>
+        <btw topic="seizure">
+          Here's a tale that might give you an idea of the medical and
+          logistical problems up here. Planning is good, but often, on
+          Everest, one is called upon to react, instead of just act. 
+          <p/>
+          <include answer="seizure"/> 
+          <else>
+            <btw topic="norman">
+              Here is a story of someone whose wish may have been 
+              granted. 
+              <p/>
+              <include answer="norman"/> 
+              <else>
+                <btw topic="aval">
+                  This is a story about <i>luck</i> and <i>skill</i> 
+                  ... both come highly recommended. 
+                  <p/>
+                  <include answer="aval"/> 
+                  <else>
+                    <btw topic="mandm">
+                      This is a story about another Mike and Mark... 
+                      <p/>
+                      <include answer="mandm"/> 
+                      <else>
+                        Phew! I've run out of stories to tell. But you
+                        can still ask me about other things... like 
+                        the example topics, below. 
+                      </else>
+                    </btw>
+                  </else>
+                </btw>
+              </else>
+            </btw>
+          </else>
+        </btw>
+      </else>
+    </btw>
+  </answer>
+  <key phrase="how high"/>
+ 
+  <question topic="howhi">How high are you?</question>
+  <question topic="howhi">How high is Everest?</question>
+  <question topic="howhi">How high is the summit</question>
+  <question topic="howhi">How high is Mount Everest?</question>
+  <question topic="howhi">
+    what is the height of Mt. Everest?
+  </question>
+  <question topic="howhi">What is your altitude?</question>
+  <question topic="howhi">altitude</question>
+  <question topic="howhi">Everest's height</question>
+  <answer topic="howhi" about="the height of Everest" 
+  next="where,route,sumday">
+    Here are a few altitudes to put things into perspective. 
+    <table border="1" cellpadding="5" align="center">
+      <tr>
+        <td align="right">
+          Feet 
+        </td>
+        <td align="left">
+          What 
+        </td>
+      </tr>
+      <tr>
+        <td align="right">
+          11,600 
+        </td>
+        <td align="left">
+          Mt. Fuji, Japan 
+        </td>
+      </tr>
+      <tr>
+        <td align="right">
+          12,000 
+        </td>
+        <td align="left">
+          Pilots of private planes use oxygen 
+        </td>
+      </tr>
+      <tr>
+        <td align="right">
+          14,700 
+        </td>
+        <td align="left">
+          The Matterhorn 
+        </td>
+      </tr>
+      <tr>
+        <td align="right">
+          17,000 
+        </td>
+        <td align="left">
+          Everest Base Camp 
+        </td>
+      </tr>
+      <tr>
+        <td align="right">
+          19,300 
+        </td>
+        <td align="left">
+          Kilimanjaro (highest point in Africa) 
+        </td>
+      </tr>
+      <tr>
+        <td align="right">
+          20,000 
+        </td>
+        <td align="left">
+          You would suffocate if you went directly to this altitude 
+          without acclimatizing. 
+        </td>
+      </tr>
+      <tr>
+        <td align="right">
+          20,320 
+        </td>
+        <td align="left">
+          McKinley (highest point in North America) 
+        </td>
+      </tr>
+      <tr>
+        <td align="right">
+          21,500 
+        </td>
+        <td align="left">
+          Everest Advanced Base Camp (ABC) 
+        </td>
+      </tr>
+      <tr>
+        <td align="right">
+          23,000 
+        </td>
+        <td align="left">
+          Aconcagua (highest point in South America) <br/> Everest 
+          Camp 4 (North Col) 
+        </td>
+      </tr>
+      <tr>
+        <td align="right">
+          27,500 
+        </td>
+        <td align="left">
+          Everest Camp 6, "the highest mountain camp in the world" 
+        </td>
+      </tr>
+      <tr>
+        <td align="right">
+          29,035 
+        </td>
+        <td align="left">
+          Everest Summit (highest point I can see from here!) 
+        </td>
+      </tr>
+    </table>
+    <p/>
+    Since I am at the North Col (23,000 feet), you can see that I am 
+    pretty well at the halfway point, altitude wise, between Base Camp
+    (17,000 feet) and the summit (just over 29,000 feet). 
+  </answer>
+ 
+  <question topic="eastrong">Where is Camp 1?</question>
+  <question topic="eastrong">How high is Camp 1?</question>
+  <question topic="eastrong">East Rongbuk Glacier</question>
+  <question topic="eastrong">
+    Tell me about the first part of the route.
+  </question>
+  <question topic="eastrong">
+    What is it like crossing the glacier?
+  </question>
+  <answer topic="eastrong" about="the East Rongbuk Glacier" 
+  next="yaks,znabc,zpbase,headwall">
+    <img src="evm098.jpg" align="right"/>
+    The route from 
+    <a href="teacher?query=$$basecamp">Base Camp</a>
+    leads up the East Rongbuk Glacier... which we follow for 12 miles 
+    (20 kilometers) to 
+    <a href="teacher?query=$$abc">Advanced Base Camp</a>
+    at the base of the 
+    <a href="teacher?query=$$headwall">headwall.</a>
+    <p/>
+    Here's the view at the start of that journey, a little way up the 
+    glacier from Base Camp. You can see the ice peeking through the 
+    moraine. That symmetrical icy peak is Pumori. 
+    <p/>
+    Camp 1 and Camp 2 sit on the glacier. They are basically outposts 
+    for moving supplies. Early on in the expedition, we did 
+    <a href="teacher?query=$$carry">carries</a>
+    to these camps to help us 
+    <a href="teacher?query=$$acclim">acclimatize</a>
+    to the altitude. 
+    <p/>
+    <br clear="all"/> 
+    <img src="evm150.jpg" align="right"/>
+    Much of the glacier consists of house sized boulders, or giant 
+    blocks of ice. But in some places, small gravel and rocks in the 
+    glacial ice have accumulated into a <i>medial moraine,</i> which 
+    has melted into the glacial ice to form a highway, with icy 
+    glacial walls on both sides. 
+    <p/>
+    Needless to say, this highway provided a welcome change from the 
+    ice blocks or giant boulders. We loved it. So did the 
+    <a href="teacher?query=$$yaks">yaks.</a>
+  </answer>
+ 
+  <question topic="tibet">Tell me about Tibet</question>
+  <question topic="tibet">What is Tibet like?</question>
+  <answer topic="tibet" about="Tibet" 
+  next="znoturd,rongmon,sherpas,yaks,basecamp">
+    <img src="evs092.jpg" align="right"/>
+    <img src="evs145.jpg" align="right"/>
+    <img src="evs131.jpg" align="right"/>
+    We came through a number of Tibetan villages on the way to Base 
+    Camp. Tibet is China's Wild, Wild West... with brave but clueless 
+    city slickers from the East coming out here for multi year 
+    assignments to tame the frontier and subdue the natives. 
+    <p/>
+    <br clear="all"/> 
+    <img src="evm074.jpg" align="right"/>
+    Here is a typical Tibetan home... with fuel providing a decorative
+    motif. That's firewood on the roof. And in case you were 
+    wondering, why <i>yes,</i> those <i>are</i> yak turds mushed to 
+    the wall to dry. 
+    <p/>
+    Dry turds are good fuel, too, and in a place where wood is so 
+    rare, you do what ya gotta do. Waste not, want not... 
+    <p/>
+    Welcome to the Turd World. Care to come in and warm yourself by 
+    the fire? 
+  </answer>
+ 
+  <answer topic="znoturd" offer="no" synonym="no">
+    Well, I didn't think you would. 
+    <btw topic="rongmon">
+      But maybe I could tell you about another piece of Tibet. 
+      <p/>
+      <include answer="rongmon"/> 
+      <else>
+        <btw topic="yaks">
+          But you should know that yaks have some redeeming 
+          attributes. 
+          <p/>
+          <include answer="yaks"/> 
+        </btw>
+      </else>
+    </btw>
+  </answer>
+ 
+  <question topic="yaks">Did you use yaks?</question>
+  <question topic="yaks">What are yaks like?</question>
+  <question topic="yaks">How many yak loads did you have?</question>
+  <question topic="yaks">Tell me about yaks</question>
+  <question topic="yaks">How high did the yaks go?</question>
+  <answer topic="yaks" about="yaks" 
+  next="zyakdriver,tibet,sherpas,basecamp,abc">
+    <img src="evm100.jpg" align="right"/>
+    <img src="evm112.jpg" align="right"/>
+    Here on the North Side were able to use yaks all the way to 
+    advanced base... and a good thing, too, because 
+    <a href="teacher?query=$$abc">Advanced Base Camp</a>
+    (also known as ABC) isn't something you'd want to carry on your 
+    back. It took a hundred yak loads to set up ABC... I'd hate to 
+    think how many climber loads that would have been. 
+    <p/>
+    Most people haven't seen yaks. But then, most people haven't been 
+    above 11,000 feet, and below that, there are bacteria which the 
+    yaks' pathetic immune system can't handle. 
+    <p/>
+    Yaks look pretty fearsome, but in fact they're pretty calm and 
+    lethargic. Like a rusty machine, they grind to a halt when not 
+    being prodded forward. 
+    <p/>
+    <btw topic="yakdriver">
+      Tibetan 
+      <a href="teacher?query=$$yakdriver">yak drivers</a>
+      provide that prodding. They also provide a bit of excitement on 
+      the glacier. 
+    </btw>
+  </answer>
+ 
+  <question topic="why">why?</question>
+  <question topic="why">what?</question>
+  <question topic="why">oh?</question>
+  <question topic="why">huh?</question>
+  <question topic="why">what do you mean</question>
+  <question topic="why">how so</question>
+  <question topic="why">in what way</question>
+  <answer topic="why" offer="no">
+    How would I know? 
+  </answer>
+ 
+  <answer topic="zyakdriver" synonym="why" about="yak drivers">
+    <include answer="yakdriver"/> 
+  </answer>
+ 
+  <question topic="yakdriver">What kind of excitement</question>
+  <question topic="yakdriver">excitement?</question>
+  <question topic="yakdriver">yak drivers</question>
+  <answer topic="yakdriver" about="yak drivers" 
+  next="yaks,eastrong,abc,tibet,rongmon,headwall">
+    <img src="evm239.jpg" align="right"/>
+    Yak drivers are cut from different cloth than their 
+    <a href="teacher?query=$$sherpas">sherpa</a>
+    brethren. You see, yak drivers are out to make a buck. And, yak 
+    drivers have a propensity to pilfer... 
+    <p/>
+    One of the things they like to steal is rope. And, one of the 
+    things that holds your Camp 1 and Camp 2 tents to this Earth are, 
+    coincidentally, also rope. 
+    <p/>
+    This unfortunate coincidence meant that, on more than one 
+    occasion, we found ourselves scouring nearby glaciers for tents 
+    that had blown away. Not funny if those tents contain the only 
+    food, fuel, and sleeping bags for miles around. 
+    <p/>
+    If you leave anything outside the tent, consider it subject to 
+    unscheduled removal. And, if you didn't put a padlock on your tent
+    zipper, all that stuff is fair game, too. 
+    <p/>
+    I find it somewhat whimsical that, at 20,000 feet on the north 
+    side of Everest, you have to lock your doors at night. 
+  </answer>
+ 
+  <question topic="sherpas">Tell me about the Sherpas</question>
+  <question topic="sherpas">what are sherpas?</question>
+  <answer topic="sherpas" about="sherpas" 
+  next="basecamp,kathmandu,yaks,tibet,rongmon">
+    <img src="evm253.jpg" align="right"/>
+    <img src="evm089.jpg" align="right"/>
+    Our expedition is supported by a dozen Sherpas. The Sherpa people,
+    originating in the Khumbu region of Nepal, are wonderful. Self 
+    motivated, yet selfless. Willing to contribute unquestioningly 
+    under the most difficult circumstances. 
+    <p/>
+    Tough, yet happy. 
+    <p/>
+    So unlike us. 
+    <p/>
+    Their duties varied. Many helped establish camps, and carry loads 
+    to them. Others tended camp. Others cooked. 
+    <p/>
+    There's a big cultural gap, complicated further by a language gap.
+    Several climbers made a point of socializing with the Sherpas, but
+    in many cases the the Sherpas participated out of deference. 
+    Perhaps the most successful social interactions involved working 
+    together. 
+  </answer>
+  <key phrase="ice climbing"/>
+ 
+  <question topic="headwall">Is there a lot of ice climbing</question>
+  <question topic="headwall">What is the steepest part</question>
+  <question topic="headwall">What is the headwall like?</question>
+  <question topic="headwall">Where do you go after ABC?</question>
+  <answer topic="headwall" about="the headwall" 
+  next="zncamp4,noridge,camp5,zpabc,eastrong">
+    <img src="evm035.jpg" align="right"/>
+    <img src="evm080.jpg" align="right"/>
+    At the head of the 
+    <a href="teacher?query=$$eastrong">East Rongbuk Glacier</a>
+    lies a 1500 foot headwall. Below it is 
+    <a href="teacher?query=$$abc">Advanced Base Camp,</a>
+    and above it... well, it's the 
+    <a href="teacher?query=$$camp4">North Col</a>
+    where I am "chilling out" now. 
+    <p/>
+    We put in fixed lines up the headwall to make it easier for the 
+    team to haul loads up here to the Col. 
+    <p/>
+    There's lots of ice here... and lots of history. One of the early 
+    attempts to climb Everest ended abruptly when an 
+    <a href="teacher?query=$$aval">avalanche</a>
+    killed 7 sherpas here in 1922, causing many to question why people
+    wanted to to climb the mountain. The moving ice means that every 
+    year this headwall presents a different challenge to climbers... 
+  </answer>
+ 
+  <question topic="rprev">Was it hard to get there?</question>
+  <question topic="rprev">How did you get there?</question>
+  <question topic="rprev">
+    It must have been difficult to get there.
+  </question>
+  <answer topic="rprev" about="how to get there" offer="no">
+    This should never occur... we only use this as a synonym 
+  </answer>
+ 
+  <question topic="rnext">What happens next?</question>
+  <question topic="rnext">Then what?</question>
+  <question topic="rnext">Then where?</question>
+  <question topic="rnext">Then where do you go</question>
+  <question topic="rnext">and after that</question>
+  <question topic="rnext">and then?</question>
+  <question topic="rnext">where do you go after that</question>
+  <question topic="rnext">Where do you go from here?</question>
+  <question topic="rnext">What will you do next?</question>
+  <answer topic="rnext" about="what I do next" offer="no">
+    This should never occur... we only use this as a synonym 
+  </answer>
+ 
+  <question topic="noridge">What happens tomorrow?</question>
+  <question topic="noridge">North Ridge</question>
+  <answer topic="noridge" about="the North Ridge" 
+  next="zncamp5,camp6,sumday,zpcamp4,headwall,zblowaway">
+    <img src="evm125.jpg" align="right"/>
+    Tomorrow we head up the North Ridge, making our way to 
+    <a href="teacher?query=$$camp5">Camp 5.</a>
+    <p/>
+    As you can see, it's a windwept, snow covered ridge, pretty 
+    inhospitable a few weeks ago because of the 
+    <a href="teacher?query=$$weather">jet stream.</a>
+    The Ridge tends to be a windy place anyway, since the North Face 
+    tends to funnel the wind. 
+    <p/>
+    On my first carry I used a face mask on the Ridge because the 
+    conditions were too harsh for exposed flesh. One of the Sherpas 
+    now has semicircles of frostbite under his eyes, where his 
+    facemask and goggles didn't quite seal! 
+    <p/>
+    We'll be climbing 2,000 feet higher, and I think we'll start using
+    <a href="teacher?query=$$oxy">oxygen</a>
+    towards the top of the ridge. 
+  </answer>
+ 
+  <question topic="zblowaway">Can you be blown off?</question>
+  <question topic="zblowaway">
+    Can't you get blown off the ridge
+  </question>
+  <answer topic="zblowaway" offer="no" about="getting 'blown away'" 
+  next="zbahi,zncamp5,zpcamp4,route,dzone">
+    <img src="evm084.jpg" align="right"/>
+    Well, I suppose it's windy enough to get blown off. 
+    <p/>
+    I think you'd probably need a 200MPH gust for that... 100MPH 
+    probably knocks you down, but doesn't give you enough lift for 
+    takeoff. 
+    <p/>
+    Earlier on I ventured out on the North Ridge with an anemometer 
+    when we were trying to gauge the jet stream... they also timed the
+    winds from basecamp, timing clouds zipping past landmarks on the 
+    North Face, estimating the wind at 100MPH. 
+    <p/>
+    Under those conditions, I felt pretty unstable... I could not get 
+    a decent anemometer reading... but I didn't feel I was about to 
+    take off. 
+    <p/>
+    Of course, lots of things smaller than people were getting 
+    <a href="teacher?query=$$highchair">blown away.</a>
+  </answer>
+ 
+  <question topic="zbahi">like what?</question>
+  <answer topic="zbahi" synonym="why" offer="no">
+    The winds of Everest had me scared sh*tless... read on. 
+    <p/>
+    <include answer="highchair"/> 
+  </answer>
+ 
+  <question topic="camp5">when do you go to Camp 5?</question>
+  <question topic="camp5">Tell me about camp 5</question>
+  <question topic="camp5">How high is Camp 5?</question>
+  <question topic="camp5">Camp five</question>
+  <question topic="camp5">Camp V</question>
+  <answer topic="camp5" about="Camp 5" 
+  next="zncamp6,sumday,zpnoridge,oxy,camp4,route,dzone,acclim">
+    <img src="evm046.jpg" align="right"/>
+    <img src="evm198.jpg" align="right"/>
+    Camp 5 is placed amid a jumble of rocks at the top of the 
+    <a href="teacher?query=$$noridge">North Ridge</a>
+    Maybe the best way of finding it is with a metal detector. There 
+    are hundreds of empty 
+    <a href="teacher?query=$$oxy">oxygen</a>
+    bottles up there. It's not a place where you can expect to get 
+    much sleep... exposed to the wind, with no real flat spot in 
+    sight. 
+    <p/>
+    Our first crack at establishing Camp 5 wasn't very successful. The
+    storms of April returned, and flattened the tents. Remarkable, 
+    given that these tents were constructed with special strength 
+    tubing to withstand 100 MPH winds. Makes you wonder... but not 
+    enough to want to have been there. 
+    <p/>
+    At 25,500 feet, this camp places us in the 
+    <a href="teacher?query=$$dzone">death zone,</a>
+    so named because of the debilitating effects of this altitude. 
+    After spending the night at this garden spot, we'll move on to 
+    <a href="teacher?query=$$camp6">Camp 6.</a>
+  </answer>
+ 
+  <question topic="camp6">Tell me about camp 6</question>
+  <question topic="camp6">Where is camp six?</question>
+  <question topic="camp6">Camp VI</question>
+  <answer topic="camp6" about="Camp 6" 
+  next="znsumday,zpcamp5,oxy,route,dzone,acclim">
+    <img src="evm193.jpg" align="right"/>
+    <img src="evm036.jpg" align="right"/>
+    We strike out across the North Face across mixed snow and rock to 
+    reach Camp 6, our highest camp. It's not exactly an inviting 
+    location... unsheltered, far from level. 
+    <p/>
+    Camp 6 lies in the Yellow Band, so named because of the underlying
+    rock layer, not because of this tent. 
+    <p/>
+    From here, after a short and difficult sleep, we'll head for 
+    <a href="teacher?query=$$sumday">the summit.</a>
+  </answer>
+ 
+  <question topic="sumday">What is the hardest part?</question>
+  <question topic="sumday">most difficult obstacle?</question>
+  <question topic="sumday">Tell me about Summit Day</question>
+  <question topic="sumday">What is summit day like?</question>
+  <answer topic="sumday" about="Summit Day" 
+  next="cuz,zpcamp6,oxy,dzone,route,acclim">
+    <img src="evm185.jpg" align="right"/>
+    <img src="evm189.jpg" align="right"/>
+    The hardest part about climbing Everest is the summit day. The 
+    most difficult and exposed climbing of the Expedition occur on 
+    that day, at a point when you are least able to cope: you're at a 
+    low point in strength, stamina, and mental agility. 
+    <p/>
+    On this side of the mountain, there are a lot of downward sloping 
+    slabs of rock on the upper mountain... and 9,000 feet of the North
+    Face waiting below you for you to make your first, and last, 
+    mistake. 
+    <p/>
+    I've spent a lifetime preparing for that day... but I know that 
+    when it comes, it will be at the edge of my ability... I'll be 
+    depending on luck, as well as preparation. 
+    <p/>
+    From 
+    <a href="teacher?query=$$camp6">Camp 6</a>
+    we will rise at midnight for a 2AM start up to the summit, which 
+    we should reach well before noon. 
+    <p/>
+    That will give us time to descend the way we came, straight past 
+    Camp 6, and on to 
+    <a href="teacher?query=$$camp5">Camp 5</a>
+    getting out of the 
+    <a href="teacher?query=$$dzone">death zone</a>
+    as soon as we possibly can. 
+  </answer>
+ 
+  <question topic="oxy">How long does an oxygen tank last?</question>
+  <question topic="oxy">
+    What kind of oxygen equipment do you use?
+  </question>
+  <question topic="oxy">Are you using oxygen?</question>
+  <question topic="oxy">How long can you use oxygen?</question>
+  <answer topic="oxy" about="using oxygen" 
+  next="acclim,health,dzone,route,food">
+    <img src="maltanks.jpg" align="right"/>
+    We'll be using oxygen above about 25,000 feet, using Russian Army 
+    surplus oxygen gear. So I guess this gear is finally seeing active
+    service in a different kind of "cold war". 
+    <p/>
+    Oxygen and Everest have had a long association. 
+    <a href="teacher?query=$$mallory">Mallory and Irvine</a>
+    used oxygen during their fateful attempt in June, 1924. This photo
+    was taken here, at the 
+    <a href="teacher?query=$$camp4">North Col.</a>
+    <p/>
+    Using oxygen causes a lot of philosophical discussion amongst 
+    climbers. Some feel that using oxygen is unfair. I suppose I take 
+    a pragmatic view, seeing oxygen as an important tool. Few people 
+    would argue that climbing Everest with crampons or down clothing 
+    is "unfair". I don't see oxygen as being any different. Others 
+    disagree with me rather violently. 
+    <p/>
+    <img src="evm075.jpg" align="right"/>
+    You shouldn't get the idea that climbing on oxygen makes your body
+    perform as if you're at sea level or something. At the upper end 
+    of the 
+    <a href="teacher?query=$$noridge">North Ridge,</a>
+    I tried an experiment. 
+    <p/>
+    Going up a steep part of the ridge, I found I was taking one step 
+    for every ten breaths. If you can visualize that, you have an idea
+    of what slow going it was. I tried to pick up the pace, and 
+    sustain eight breaths per step... I found I couldn't do it. 
+    <p/>
+    Now, trying it on oxygen... five breaths per step! Nirvana! Still 
+    an order of magnitude slower than sea level... but a major 
+    improvement, and a decisive one high on the mountain. 
+  </answer>
+ 
+  <question topic="frostbite">
+    What sort of danger is there from frost bite?
+  </question>
+  <question topic="frostbite">How does frostbite happen?</question>
+  <answer topic="frostbite" about="frostbite" 
+  next="oxy,dzone,weather,acclim">
+    <img src="evm179.jpg" align="right"/>
+    <img src="evm216.jpg" align="right"/>
+    Frostbite is what happens when the flesh freezes. 
+    <p/>
+    It happens pretty often up here. Given the altitude, blood 
+    circulation isn't what it should be, so extremities such as 
+    Gordy's hands or Mark's feet aren't kept warm the way they ought 
+    to be. 
+    <p/>
+    The result is painful and easily infected. It's good practice to 
+    soak the affected area in antibiotics... which isn't always 
+    practical, especially in places where you get frostbite to begin 
+    with. 
+    <p/>
+    Depending on the severity, frostbitten areas may heal, but they 
+    may have to be amputated. 
+  </answer>
+ 
+  <question topic="kathmandu">Did you see Kathmandu?</question>
+  <question topic="kathmandu">Tell me about Nepal</question>
+  <answer topic="kathmandu" about="Kathmandu" 
+  next="tibet,sherpas,rongmon,yaks,basecamp">
+    <img src="evm008.jpg" align="right"/>
+    <img src="evm034.jpg" align="right"/>
+    <img src="evm300.jpg" align="right"/>
+    Some of us approached Everest from Nepal, and some from China. I 
+    came in with the trucks of gear we brought in from Nepal, starting
+    in Kathmandu. 
+    <p/>
+    Prepare to be pestered in Kathmandu. You're obviously an outsider.
+    Folks will continuously offer to sell you hashish, or offer to 
+    change money on the black market. 
+    <p/>
+    It's an interesting place to wander around... shops, street 
+    vendors, temples, and interesting people. You'll find aspects of 
+    both Hindu and Buddhist religions. There is an exiled 
+    <a href="teacher?query=$$tibet">Tibetan</a>
+    community there. 
+  </answer>
+ 
+  <question topic="water">Where did you get water?</question>
+  <question topic="water">Dehydration</question>
+  <question topic="water">What do you drink</question>
+  <question topic="water">What are you drinking</question>
+  <answer topic="water" about="water on the mountain" 
+  next="food,clothing,zleak,oxy,gear,wash">
+    People are often surprised to hear what an important role <i>water
+    </i> plays on the upper mountain. 
+    <p/>
+    You lose liquid much faster up here... the air is closer to vacuum
+    than it is to the "air" we know at sea level; lots of liquid is 
+    lost through the simple act of breathing. And the body doesn't do 
+    a very good job of using the liquid it's given at this altitude. 
+    Furthermore, the body doesn't help you you by reminding you, 
+    through thirst, of its needs... so unless you make a conscious 
+    effort, you'll end up dehydrated. 
+    <p/>
+    The risks are many. Dehydration can lead to exhaustion, stokes, 
+    pulmonary or cerebral edema... a variety of potentially lethal 
+    <a href="teacher?query=$$health">health problems.</a>
+    I aim to drink 4 liters (quarts) of water a day. I keep track of 
+    it, and make plans around it. 
+    <p/>
+    An important part of the 
+    <a href="teacher?query=$$typday">daily routine</a>
+    revolves around water. After all, up here we need to melt snow to 
+    get water. It's a time consuming chore. At each camp, we have a 
+    designated "clean snow" area... we go out there, fill up a big 
+    plastic garbage bag, bring it back into the tent, melt it down, 
+    and fill water bottles. It's annoying how much snow you need. 
+    <p/>
+    And then, those water bottles would just freeze again unless you 
+    take precautions. Water bottles go into your sleeping bag at 
+    night... 
+  </answer>
+ 
+  <question topic="zleak">What happens if the bottles leak?</question>
+  <question topic="zleak">What if they leak?</question>
+  <answer topic="zleak" about="leaking water bottles">
+    If water bottles leak, you're in trouble! This happened to a 
+    friend... not here on Everest, but on another expedition... the 
+    whole foot of his sleeping bag froze solid. You can imagine this 
+    is not an easy problem to solve. You can't just hang out a 
+    sleeping bag to dry under these conditions! And it's not just an 
+    inconvenience. The sleeping bag is an important part of living and
+    staying warm up here. 
+  </answer>
+ 
+  <question topic="sleepbag">
+    Tell me about your sleeping bag
+  </question>
+  <question topic="sleepbag">
+    What kind of sleeping bag do you have
+  </question>
+  <question topic="sleepbag">sleeping bag</question>
+  <answer topic="sleepbag" about="sleeping bags" 
+  next="clothing,gear,tent">
+    Our sleeping bags up here, as you can imagine, are the warmest you
+    can find in the world... not only because it's cold here, but also
+    because, at this altitude, the body is inefficient at keeping 
+    itself warm and needs all the help it can get. 
+    <p/>
+    The heart of a good sleeping bag is insulation, and ours are all 
+    insulated with goose down. There are lots of artificial fills out 
+    there... they are generally very good, and better than goose down 
+    in wet conditions... but so far no artificial insulation has 
+    matched down's insulating power per unit weight. I tried an 
+    artificial bag on Shishapangma a few years back... and had a water
+    bottle freeze <i>inside the bag...</i> so I sold that bag when I 
+    got back to 
+    <a href="teacher?query=$$kathmandu">Kathmandu!</a>
+    <p/>
+    They're all mummy bags up here... enclosing your head as well as 
+    your body. 
+    <p/>
+    Sleeping bags in upper camps are group resources... once a bag is 
+    up there, it stays there for the next guy. There's enough stuff to
+    carry that we can't afford to lug bags up and down the mountain 
+    with each carry. 
+  </answer>
+ 
+  <question topic="tent">What kind of tents do you use</question>
+  <question topic="tent">Tell me about your tent.</question>
+  <answer topic="tent" about="tents">
+    <img src="evm225.jpg" align="right"/>
+    We tend to use internal frame dome tents up here... they are 
+    strong and light. 
+    <p/>
+    Some of the tents we have for the upper mountain are experimental 
+    units provided by a major tent manufacturer... with oversized 
+    poles to take high winds. These tents have been tested under 
+    controlled conditions with winds over 100MPH. 
+    <p/>
+    Strength is not enough... tents can get blown off as complete 
+    units! Especially on the upper mountain, we go to extremes to 
+    "nail down" the tents. 
+    <p/>
+    These tents here at 
+    <a href="teacher?query=$$camp4">Camp 4</a>
+    are secured with nets over the top, built of tubular nylon 
+    (breaking strength measured in tons). These are pegged into the 
+    ice with 3 foot metal pickets. 
+  </answer>
+ 
+  <question topic="acclim">
+    How did you adapt to the altitude?
+  </question>
+  <question topic="acclim">Is it difficult to breathe?</question>
+  <question topic="acclim">How thin was the air?</question>
+  <question topic="acclim">Is breathing difficult?</question>
+  <question topic="acclim">Did you get altitude sickness?</question>
+  <question topic="acclim">Was it hard to breathe up there?</question>
+  <answer topic="acclim" about="acclimatizing to altitude" 
+  next="oxy,dzone,health,zseiz,water,food">
+    <img src="evm018.jpg" align="right"/>
+    If you were suddenly transported to 20,000 feet from sea level, 
+    you'd die of suffocation. And yet, I'm at 23,000 feet now. Why 
+    don't I suffocate? 
+    <p/>
+    Because I'm <i>acclimatized...</i> that is, my body has gradually 
+    adapted to the thinner air over a period of weeks. Early in the 
+    expedition, we go through a systematic process of incrementally 
+    exposing our bodies to altitude... "carry high, sleep low"... as 
+    we move equipment up from lower camps. This pattern exposes our 
+    body to altitude, and then lets it recover (and rest) at night. 
+    <p/>
+    Gradually, our body adapts, and we find that our strength and 
+    stamina lets us go farther, faster. 
+    <p/>
+    When altitude related 
+    <a href="teacher?query=$$health">health problems</a>
+    <i>do</i> strike, there is always an answer: Go down! Or, if you 
+    have one of these inflatable iron lung jobbies (known as a "Gamow 
+    Bag"), like we did at base camp, you can climb in here, get 
+    somebody to pump you up, and simulate a short visit to sea level. 
+    (Beach views not included.) 
+    <btw topic="seizure">
+      <p/>
+      Of course, sometimes descending 
+      <a href="teacher?query=$$seizure">isn't as easy as it sounds. 
+      </a>
+    </btw>
+  </answer>
+ 
+  <answer topic="zseiz" about="a crisis at high altitude" 
+  synonym="why">
+    Here's an example of what can happen when altitude related medical
+    problems occur where you most expect them... on the upper 
+    mountain. 
+    <p/>
+    <include answer="seizure"/> 
+  </answer>
+ 
+  <question topic="seizure">Any exciting rescues?</question>
+  <answer topic="seizure" about="a close call at 21,500 feet" 
+  next="oxy,acclim,dzone,health,water,food">
+    <img src="evm250.jpg" align="right"/>
+    Imagine you're at 
+    <a href="teacher?query=$$abc">Advanced Base Camp,</a>
+    at around 21,500 feet. It's quite common for the 
+    <a href="teacher?query=$$sherpas">Sherpas</a>
+    there to collect in one side of the mess tent, chattering to each 
+    other in their native tongue, while the climbers do much the same 
+    on the other side of the tent. There's relatively little contact 
+    across that boundary; the language gap and culture gap was too 
+    wide. 
+    <p/>
+    This particular evening was no different. Phinzo, over in the 
+    Sherpa corner, was making a dramatic point. He raised his arm in a
+    gesture, and froze. 
+    <p/>
+    At sea level, blood is about 40% solid material. At altitude, it 
+    approaches 70%. 
+    <a href="teacher?query=$$health">Things happen.</a>
+    Blood clots... embolisms... and, in Phinzo's case, a stroke... a 
+    blockage in blood flow in the brain. He suffered through several 
+    <i>gran mal</i> seizures... thrashing wildly. Luckily, there was a
+    doctor there... I think she was Austrian, part of a German team 
+    which was also established at ABC. It was an all-out battle to 
+    keep Phinzo alive. He had to be physically restrained... recurrent
+    seizures... various drugs were administered... decadron, I 
+    think... IV drip to thin down the blood... 
+    <a href="teacher?query=$$oxy">oxygen</a>
+    masks. Not a whole lot of sleep was had that night. His condition 
+    was not stable. He had to come down. More easily said than done...
+    the 
+    <a href="teacher?query=$$eastrong">East Rongbuk Glacier</a>
+    is an obstacle course for a <i>healthy</i> person... how to get 
+    somebody down on a stretcher...? 
+    <p/>
+    I was at 
+    <a href="teacher?query=$$basecamp">Base Camp</a>
+    for the the 7AM radio call, when we got the news that a team, 
+    comprised of Americans, Sherpas, Canadians, Germans, others... 
+    were already well underway bringing Phinzo down the glacier. A 
+    makeshift stretcher... 15 miles of rugged terrain. 6-8 people per 
+    shift. 5 minutes at a shift. Juggling to maintain IV and oxygen. 
+    <p/>
+    His condition remained critical for the duration. At one point, 
+    the oxygen stopped... changing tanks, I think. Another seizure. By
+    the time it was over, some 30 people were involved in getting him 
+    off the mountain. From Base Camp, we had a 4WD jeep rigged up to 
+    keep him on oxygen across the Tibetan plateau, over the pass and 
+    into Nepal. 
+    <p/>
+    Suddenly, ABC was pretty well empty. Base Camp was the biggest 
+    city in Rongbuk County. All the expeditions reset their 
+    carefully-orchestrated climbing cycles to ground zero. 
+    <p/>
+    This is Phinzo's way of life, and his livelihood. It is likely 
+    that we'll see him again down in 
+    <a href="teacher?query=$$kathmandu">Kathmandu</a>
+    a month from now on our way through... by which time he'll already
+    be talking about his next expedition, his next job. 
+  </answer>
+ 
+  <question topic="abc">Tell me about ABC</question>
+  <question topic="abc">How high is Advanced Basecamp?</question>
+  <question topic="abc">Where is Advanced Base Camp?</question>
+  <question topic="abc">Where is Advance Base Camp?</question>
+  <answer topic="abc" about="Advanced Base Camp" 
+  next="znheadwall,camp4,noridge,route,zpeastrong,yaks">
+    <img src="evm224.jpg" align="right"/>
+    <img src="evm284.jpg" align="right"/>
+    Follow the 
+    <a href="teacher?query=$$eastrong">East Rongbuk Glacier</a>
+    to the end, and you'll find Advanced Base Camp, at 21,500 feet. I 
+    can see it quite clearly, 1,500 feet below my location here on the
+    <a href="teacher?query=$$where">North Col.</a>
+    <p/>
+    Advanced Base Camp, as the name implies, is a remote outpost that 
+    supports efforts on the upper mountain. There is a substantial 
+    tent placed there, capable of withstanding 100MPH winds. We cache 
+    equipment, fuel, oxygen, and food there. There's medical 
+    equipment, and usually a doctor from one or more expeditions. This
+    is the field hospital. 
+    <p/>
+    There's an unobstructed view from here of the rest of the route, 
+    starting with the 1,500 foot ice 
+    <a href="teacher?query=$$headwall">headwall,</a>
+    and ending with the 
+    <a href="teacher?query=$$sumday">summit.</a>
+    <p/>
+    We maintain radio contact with 
+    <a href="teacher?query=$$basecamp">Base Camp,</a>
+    4,500 feet lower and 12 miles distant, by using the face of 
+    Everest as a reflector. 
+  </answer>
+ 
+  <question topic="typday">
+    Describe a typical day on Everest
+  </question>
+  <question topic="typday">Tell me about your daily routine</question>
+  <answer topic="typday" about="a typical day on Everest" 
+  next="clothing,food,water,gear">
+    <img src="evm257.jpg" align="right"/>
+    What is a "typical day" like on Everest? 
+    <p/>
+    Well, there's a lot of territory between 
+    <a href="teacher?query=$$basecamp">Base Camp,</a>
+    where we spend a <i>lot</i> of time, up through 
+    <a href="teacher?query=$$sumday">Summit Day,</a>
+    which doesn't fall into the category of a "typical day." So let's 
+    talk about the days in between. 
+    <p/>
+    The six camps between Base and the summit are our temporary 
+    homes... the bulk of the expedition revolves around establishing 
+    these camps, and provisioning them. 
+    <p/>
+    It's all about the 
+    <a href="teacher?query=$$carry">pyramid of supplies</a>
+    ... we're endlessly moving equipment, consumables, and ourselves 
+    up the mountain. 
+    <p/>
+    One day, we might load up, say, 50 pounds of stuff, carry it up to
+    the next camp (an average of 2,000 feet higher), and then return 
+    again to sleep at the lower camp... letting the body rest in the 
+    thicker air. Then, the next day, we might carry again to the 
+    higher camp with another load, this time staying higher, so we can
+    repeat the process one notch up on the camp chain. 
+    <p/>
+    In the late afternoon, we may spend an hour or two melting snow 
+    for 
+    <a href="teacher?query=$$water">water.</a>
+    Then, after a simple single pot dinner cooked on a stove in the 
+    tent, we might discuss plans or play cards... Hearts is a favorite
+    on our expedition. Then, as the sun slips away, the cold and 
+    darkness leave us few alternatives but to sleep. 
+  </answer>
+ 
+  <question topic="dzone">What is the death zone</question>
+  <question topic="dzone">
+    Can you die from altitude sickness?
+  </question>
+  <answer topic="dzone" about="the Death Zone" 
+  next="oxy,acclim,health,risks,camp5,risks">
+    <img src="evm011.jpg" align="right"/>
+    The term "Death Zone" was coined in 1952 by Dr. Wyss-Dunant, in 
+    his analysis of the Swiss Everest attempt of that year, which very
+    nearly succeeded in being the first ascent of the mountain. He 
+    summarized the effect of extreme altitudes as follows: 
+    <ul>
+      <li>Above 6,000 meters (19,700 feet), the body can acclimatize 
+      for short periods</li>
+      <li>Above 7,000 meters (23,000 feet), the body can't 
+      acclimatize.</li>
+      <li>Above 7,500 meters (24,600 feet), one enters the <i> 
+      Todeszone</i> (translation: Death Zone) where acclimatization is
+      out of the question, and physiological deterioration is rapid 
+      and severe.</li>
+    </ul>
+    <p/>
+    In the Death Zone, the body is disintegrating hour by hour. 
+    "Staying in the Death Zone" is an "oxy moron"... you lose 
+    strength, mental capacity, and body heat so rapidly that death is 
+    an inevitable and natural result. 
+    <p/>
+    That's why, to the extent possible, 
+    <a href="teacher?query=$$sumday">summit thrusts</a>
+    are just that... quick visits to the Death Zone, in and out. If 
+    weather turns, so do you... no hanging out waiting for better 
+    conditions. Return to the relative safety below, to regroup and 
+    recover. Then, if time and provisions are sufficient, try again. 
+  </answer>
+ 
+  <question topic="basecamp">Tell me about base camp</question>
+  <question topic="basecamp">
+    How often did you visit base camp
+  </question>
+  <question topic="basecamp">How high is basecamp</question>
+  <answer topic="basecamp" about="Base Camp" 
+  next="zneastrong,yaks,abc,route,sherpas,tibet,rongmon">
+    <img src="evm215.jpg" align="right"/>
+    <img src="evm302.jpg" align="right"/>
+    Base camp is where we spend more time than any other place... it 
+    is a small village, with doctors and shelter and food. There are 
+    communal tents for cooking, eating, radios, and so forth; and we 
+    have our own tents for sleeping. 
+    <p/>
+    Since, physiologically, our body is in continuous decline anywhere
+    above 19,000 feet, base camp, at a balmy 17,000 feet, provides a 
+    modicum of respite from the altitude. 
+    <p/>
+    So, we're always popping back down to base camp, for a day or two 
+    of rest before another push up the hill. 
+  </answer>
+ 
+  <question topic="rongmon">Tell me about Rongbuk Monastery</question>
+  <question topic="rongmon">Did you visit Buddhist temples?</question>
+  <answer topic="rongmon" about="Rongbuk Monastery" 
+  next="tibet,sherpas,basecamp,eastrong,yaks">
+    <img src="evm267.jpg" align="right"/>
+    <img src="evm162.jpg" align="right"/>
+    Below 
+    <a href="teacher?query=$$basecamp">Base Camp</a>
+    about 8 miles lies the Rongbuk Monastery. Up through the first 
+    half of the 20th century, it had been an important center for 
+    <a href="teacher?query=$$tibet">Tibetan</a>
+    Buddhism, being the residence for the Head Lama (a reincarnation),
+    20 "ordinary" Lamas, and several hundred monks. 
+    <p/>
+    Then came the People's Revolution, which decided that the above 
+    were the wrong People. Today the Rongbuk Monastery lies in ruins. 
+    In fact, <i>acres</i> of ruins. Amongst the ruins are thousands of
+    <i>mani stones,</i> carved with prayers. 
+    <p/>
+    I walked there from base camp once. I saw nobody there. Eerie. 
+  </answer>
+ 
+  <question topic="hi">glad to meet you</question>
+  <question topic="hi">Hello</question>
+  <question topic="hi">Hi</question>
+  <question topic="hi">Hi there</question>
+  <question topic="hi">Howdy</question>
+  <question topic="hi">Hiya</question>
+  <question topic="hi">Hey</question>
+  <question topic="hi">Yo</question>
+  <answer topic="hi" offer="no" about="greetings">
+    Hiya! Now, let's see... what's the best way to start? 
+    <p/>
+    <btw topic="where">
+      Maybe I can tell you a little about where I am. <include 
+      answer="where"/> 
+      <else>
+        I can give you an overview of the route in the coming days... 
+        <include answer="route"/> 
+      </else>
+    </btw>
+  </answer>
+ 
+  <question topic="imfine">How are you?</question>
+  <question topic="imfine">How are you doing</question>
+  <question topic="imfine">How are you today?</question>
+  <question topic="imfine">Hi Dan</question>
+  <question topic="imfine">How's it going?</question>
+  <answer topic="imfine" about="how I'm doing" offer="no">
+    <random>
+      <choice>
+        I'm fine! (Thanks for asking.) I'm pretty pumped about being 
+        up here... I really think I have a very good chance this time 
+        around. 
+      </choice>
+      <choice>
+        Hey, I'm having a super day. I'm safe and sound up here, 
+        feeling healthy, things are looking good. 
+      </choice>
+    </random>
+    In fact, I'm feeling<i> even better</i> about things, now that 
+    you've stopped by to chat! 
+    <p/>
+    <btw topic="where">
+      It might help if I told you where I am, huh? 
+      <p/>
+      <include answer="where"/> 
+      <else>
+        <btw topic="route">
+          The next few days are going to be pretty eventful ones. 
+          <p/>
+          <include answer="route"/> 
+        </btw>
+      </else>
+    </btw>
+  </answer>
+ 
+  <answer topic="duh" offer="no" about="clarifying the question">
+    <random>
+      <choice>
+        Hey, man, I'm clueless. I don't know what you mean by "<quest
+        />"... 
+      </choice>
+      <choice>
+        "<quest/>"... Well, that's a very interesting thing to say... 
+        interesting, in part, because I have no idea what it means. 
+      </choice>
+      <choice>
+        You know, not many people have asked me "<quest/>"... in fact,
+        my teacher didn't prepare me for anything like it. 
+      </choice>
+    </random>
+    <p/>
+    Please try again... perhaps be more specific, or rephrase the 
+    question. 
+  </answer>
+ 
+  <answer topic="ambig" offer="no" about="your ambiguous question">
+    <random>
+      <choice>
+        I'm having difficulty responding to "<quest/>". 
+      </choice>
+      <choice>
+        Hmmm... you said "<quest/>"... you seem to be touching on 
+        several topics there... 
+      </choice>
+    </random>
+    <p/>
+    Are you asking about <nexttopic num="0"/>, or maybe about 
+    <nexttopic num="1"/>? Pick one of these, or rephrase the question 
+    if I've missed it entirely... 
+  </answer>
+ 
+  <answer topic="rehash" offer="no" about="repeating myself">
+    <random>
+      <choice>
+        I think we've already talked about <nexttopic/>... click the 
+        link to hear about it again, or try rewording your question...
+      </choice>
+    </random>
+  </answer>
+ 
+  <answer topic="intro" offer="no" about="starting the conversation" 
+  next="where,weather,route,zmelt">
+    <img src="northcol.jpg" vspace="10" hspace="10" align="right"/>
+    Hi! Looks like you caught me taking off my boots! Glad to meet 
+    you. My name is Dan, and I'm on Everest's 
+    <a href="teacher?query=$$where">North Col.</a>
+    According to my virtual calendar, it's early May, and tomorrow, 
+    <a href="teacher?query=$$weather"> weather permitting,</a>
+    we set off for higher camps and the summit beyond. 
+    <p/>
+    Why don't you stay a while and chat? I'll brew up a hot drink for 
+    you... and maybe I can tell you a story or two about this rock, 
+    this place we call Everest. 
+    <p/>
+    <hr/> 
+    <p/>
+    <i>Try typing a question in the space provided, like "What's the 
+    weather like where you are?" or "Where is the North Col?" 
+    <p/>
+    If you're ever stuck, I always provide a few suggested discussion 
+    topics just below where you type your question. 
+    <p/>
+    If you ever want to take my first suggested topic, <b>just press 
+    the Enter key.</b></i> 
+  </answer>
+ 
+  <question topic="zmelt">
+    Why are you taking off your boots?
+  </question>
+  <question topic="zmelt">why take off boots?</question>
+  <question topic="zmelt">taking off your boots?</question>
+  <answer topic="zmelt" about="why I'm taking off my boots">
+    Well, I was just taking off my boots and crampons so I could go 
+    into the tent to fire up the stove and tend to an important 
+    chore... melting snow! 
+    <p/>
+    <include answer="water"/> 
+  </answer>
+ 
+  <question topic="no">No way</question>
+  <question topic="no">No</question>
+  <question topic="no">No, thanks</question>
+  <question topic="no">I'd rather not</question>
+  <question topic="no">No, I'd rather not</question>
+  <answer topic="no" offer="no" repeat="yes" 
+  about="Dan's feeling rejected">
+    Okay. I just thought I'd ask. 
+  </answer>
+ 
+  <answer topic="readbook" about="reading Dan's brain">
+    Reading new brain definition... old one had <answercount/> answers
+    referred to by <questioncount/> example questions. 
+  </answer>
+ 
+  <question topic="bye">Goodbye</question>
+  <question topic="bye">I am finished</question>
+  <question topic="bye">How do I finish the conversation?</question>
+  <question topic="bye">Thanks, that's all I need to know</question>
+  <question topic="bye">I think that answers my questions</question>
+  <question topic="bye">I have to go now</question>
+  <question topic="bye">Thank you for your time.</question>
+  <question topic="bye">Thanks for your time.</question>
+  <question topic="bye">Thank you for your help.</question>
+  <question topic="bye">quit</question>
+  <question topic="bye">I'm done</question>
+  <question topic="bye">Thanks, goodbye</question>
+  <question topic="bye">Okay, bye</question>
+  <question topic="bye">exit</question>
+  <question topic="bye">bye</question>
+  <question topic="bye">goodbye</question>
+  <answer topic="bye" about="finishing the conversation" offer="no" 
+  last="yes">
+    <img src="evm257.jpg" vspace="10" hspace="10" align="right"/>
+    Okay, thanks for coming by to chat. Talking to people helps me 
+    keep alert up here... which is hard to do at this altitude! So I 
+    appreciate your visit. 
+    <p/>
+    See you again sometime! Stay warm and safe... I'll try to do the 
+    same. 
+  </answer>
+ 
+  <answer topic="goodbye" about="finishing the conversation" 
+  offer="no" last="yes">
+    <hr/> 
+    <p/>
+    Well, I'm pretty tired now... I think I'm going to sack out and 
+    rest. Tomorrow's a big day. 
+    <p/>
+    Thank you for the conversation. I hope you found it interesting. 
+    Come back again soon! 
+  </answer>
+  <key phrase="my name is"/>
+ 
+  <question topic="confused">How do you answer questions?</question>
+  <question topic="confused">Can you understand me?</question>
+  <question topic="confused">
+    Do you really understand what I am saying?
+  </question>
+  <question topic="confused">I don't understand this.</question>
+  <question topic="confused">What should I do?</question>
+  <question topic="confused">What should I do now?</question>
+  <question topic="confused">
+    Explain what I am supposed to do.
+  </question>
+  <question topic="confused">What am I supposed to do?</question>
+  <question topic="confused">what's up?</question>
+  <question topic="confused">What is this?</question>
+  <question topic="confused">What the hell is this?</question>
+  <question topic="confused">what should I say?</question>
+  <question topic="confused">Why ask why?</question>
+  <question topic="confused">my name is</question>
+  <answer topic="confused" about="my brain" offer="no">
+    Hello! My name is Dan, and I'm a simulated climber situated at the 
+    North Col on Everest, poised for a summit attempt. You can ask me 
+    questions, like 
+    <ul>
+      <li> What's the weather like?</li>
+      <li> Where are you staying?</li>
+      <li> How do you keep warm?</li>
+      <li> What kind of food do you eat?</li>
+    </ul>
+    I have answers to these, and many other questions, about climbing 
+    Everest. 
+    <p/>
+    Just type your question in the space provided. If you want me to 
+    start things off, just press the Enter key or the Reply button, 
+    and I'll begin the conversation. I always provide you with 
+    suggested topics for further discussion as you go. 
+    <p/>
+    When you are done, just say "goodbye". 
+    <p/>
+    Okay? Tell me what you're interested in, or give me a question... 
+    or, if you're a bit tired after coming up that headwall to see me,
+    just press the Enter key and I'll talk to you. 
+  </answer>
+ 
+  <question topic="praise">I would have never guessed</question>
+  <question topic="praise">great answer</question>
+  <question topic="praise">interesting</question>
+  <question topic="praise">fascinating</question>
+  <question topic="praise">impressive</question>
+  <question topic="praise">cool</question>
+  <question topic="praise">kewl</question>
+  <question topic="praise">way kewl</question>
+  <question topic="praise">that's great!</question>
+  <question topic="praise">that's incredible</question>
+  <question topic="praise">amazing</question>
+  <question topic="praise">that's unbelieveable</question>
+  <question topic="praise">oh wow</question>
+  <question topic="praise">pretty impressive</question>
+  <question topic="praise">very cool</question>
+  <question topic="praise">that's nice</question>
+  <question topic="praise">that's good</question>
+  <question topic="praise">good</question>
+  <question topic="praise">holy shit</question>
+  <question topic="praise">that's really great!</question>
+  <question topic="praise">incredible stuff</question>
+  <question topic="praise">amazing stuff</question>
+  <question topic="praise">that's really unbelieveable</question>
+  <answer topic="praise" offer="no" repeat="yes" about="your reaction"
+  >
+    <random>
+      <choice>
+        Yeah! 
+        <p/>
+        You know, that reminds me... I was going to tell you about 
+        <nexttopic link="no"/>... 
+      </choice>
+      <choice>
+        Indeed! 
+        <p/>
+        While we're on the subject, maybe you'd be interested in 
+        hearing about <nexttopic link="no"/>... 
+      </choice>
+    </random>
+    <p/>
+    <include answer="next"/> 
+  </answer>
+ 
+  <question topic="haha">ha ha</question>
+  <question topic="haha">very funny</question>
+  <answer topic="haha" offer="no" repeat="yes" about="your reaction">
+    <random>
+      <choice>
+        Well, <i>I</i> thought it was funny. So, now how about if we 
+        talk about <nexttopic link="no"/>... 
+      </choice>
+      <choice>
+        Yeah! Anyway, where was I? I think I was going to tell you 
+        about <nexttopic link="no"/>... 
+      </choice>
+    </random>
+    <p/>
+    <include answer="next"/> 
+  </answer>
+ 
+  <question topic="yes">Yes</question>
+  <question topic="yes">Okay</question>
+  <question topic="yes">Yep</question>
+  <question topic="yes">Yeah</question>
+  <question topic="yes">Sure</question>
+  <question topic="yes">Of course</question>
+  <question topic="yes">ok</question>
+  <answer topic="yes" offer="no" repeat="yes" about="agreeing">
+    <random>
+      <choice>
+        Now let's talk about <nexttopic link="no"/>... 
+      </choice>
+      <choice>
+        Let me tell you about <nexttopic link="no"/>... 
+      </choice>
+      <choice>
+        That reminds me about <nexttopic link="no"/>... 
+      </choice>
+      <choice>
+        Maybe you'd be interested in hearing about <nexttopic 
+        link="no"/>... 
+      </choice>
+    </random>
+    <p/>
+    <include answer="next"/> 
+  </answer>
+ 
+  <question topic="rudedude">You suck</question>
+  <question topic="rudedude">Fuck me</question>
+  <question topic="rudedude">asshole</question>
+  <question topic="rudedude">Fucking asshole</question>
+  <question topic="rudedude">Fuck yourself</question>
+  <question topic="rudedude">sod you</question>
+  <question topic="rudedude">Fuck off!</question>
+  <question topic="rudedude">Fuck you</question>
+  <question topic="rudedude">You are stupid</question>
+  <question topic="rudedude">You're full of shit</question>
+  <question topic="rudedude">You stupid piece of shit!</question>
+  <answer topic="rudedude" offer="no" about="your manners">
+    <random>
+      <choice>
+        Now, now... behave yourself! You do realize that this 
+        conversation is being logged... don't you? 
+        <p/>
+        And... let's see... looking at the sites you've visited 
+        recently, you seem to be a prime blackmail candidate! You 
+        should be ashamed of yourself! 
+      </choice>
+      <choice>
+        Funny. I was just thinking the same about you. 
+      </choice>
+    </random>
+    <p/>
+    Ask me a question... or, if you'd like me to take the lead, just 
+    press the Enter key. 
+  </answer>
+ 
+  <question topic="weather">
+    What's the weather like where you are?"
+  </question>
+  <question topic="weather">is it snowy?</question>
+  <question topic="weather">What's the weather?</question>
+  <question topic="weather">Is it cold?</question>
+  <question topic="weather">What is the temperature</question>
+  <question topic="weather">How cold is it?</question>
+  <question topic="weather">are you cold?</question>
+  <question topic="weather">how's the weather</question>
+  <question topic="weather">what is the coldest temperature</question>
+  <question topic="weather">is it windy?</question>
+  <question topic="weather">what's the weather like</question>
+  <answer topic="weather" about="the weather" 
+  next="where,zwxview,zwxhi,route,camp5,food">
+    <img src="topfnc.jpg" vspace="10" hspace="10" align="right"/>
+    It's bloody cold up here, mate. 
+    <p/>
+    I think one of the Canadian guys said it was about thirty-five 
+    below Fahrenheit at 
+    <a href="teacher?query=$$water">Advanced Base Camp,</a>
+    so it must be a bit colder up here. But I guess I don't pay 
+    attention to the temperature. There's a lot more to the weather on
+    Everest. 
+    <p/>
+    A few weeks ago (virtual April), the Jet Stream was blasting 
+    across Everest's summit, with continuous winds whistling past 
+    massive North Face (right) at over 100 miles an hour. These winds 
+    funnel through the 
+    <a href="teacher?query=$$where">North Col,</a>
+    scrubbing the western side clean and dumping snow on the east, 
+    forming the 
+    <a href="teacher?query=$$headwall">headwall</a>
+    below, the top of which you see in the left foreground. 
+    <p/>
+    Good weather for freezing off unwanted extremities. Not good 
+    weather for much of anything else. Certainly not good weather for 
+    venturing out onto the 
+    <a href="teacher?query=$$noridge">North Ridge,</a>
+    where exposed flesh quickly freezes. 
+    <p/>
+    But now, in virtual May, the approaching Monsoon is pushing its 
+    way up from the south, moving the jet stream away from the summit.
+    So the weather is settling a bit... giving us an opportunity to 
+    climb higher. 
+    <btw topic="where">
+      At the same time, the more settled weather makes life a bit 
+      safer and easier here on the 
+      <a href="teacher?query=$$where">North Col.</a>
+      <else>
+        <btw topic="camp4">
+          And, of course, settled weather means we can 
+          <a href="teacher?query=$$camp4">enjoy the view.</a>
+        </btw>
+      </else>
+    </btw>
+  </answer>
+ 
+  <question topic="zwxhi">climb higher?</question>
+  <question topic="zwxhi">higher?</question>
+  <answer topic="zwxhi" synonym="noridge" about="going higher">
+    <include answer="noridge"/> 
+  </answer>
+ 
+  <question topic="zwxview">What view?</question>
+  <question topic="zwxview">beautiful?</question>
+  <question topic="zwxview">Enjoy the view?</question>
+  <answer topic="zwxview" synonym="camp4" about="the view from here">
+    <include answer="camp4"/> 
+  </answer>
+ 
+  <question topic="whereami">where am I</question>
+  <answer topic="whereami" about="where you are" offer="no">
+    Where are you? Well, presumably you are in a reasonably warm and 
+    comfy place surfing the Web. 
+    <p/>
+    Where am I? Well, that's another story. 
+    <p/>
+    <include answer="where"/> 
+  </answer>
+  <key phrase="North Col"/>
+ 
+  <question topic="where">Where are you?</question>
+  <question topic="where">Where is the North Col?</question>
+  <question topic="where">are you at the North Col</question>
+  <question topic="where">What is the North Col?</question>
+  <question topic="where">what is the north col</question>
+  <question topic="where">where</question>
+  <answer topic="where" about="where I am" 
+  next="camp4,route,znnoridge,weather,zpheadwall">
+    <img src="iamhere.jpg" vspace="10" hspace="10" align="right"/>
+    I'm at the North Col. "Col" is a Welsh word meaning "saddle". 
+    "North" is an English word meaning "North". 
+    <p/>
+    This is what my pad looks like from Cho Oyu on a nice day. You can
+    see that I'm nestled between the sharp North Summit of Everest on 
+    the left, and the 
+    <a href="teacher?query=$$noridge">North Ridge</a>
+    on the right. 
+    <p/>
+    We call this 
+    <a href="teacher?query=$$camp4">Camp 4...</a>
+    it's our gateway to the upper mountain. We've also stocked 
+    <a href="teacher?query=$$camp5">Camp 5...</a>
+    our next stop enroute to the summit. 
+  </answer>
+ 
+  <answer topic="zpbase" synonym="rprev" essence="basecamp" 
+  about="getting to the East Rongbuk Glacier">
+    <btw topic="basecamp">
+      <include answer="basecamp"/> 
+      <else>
+        To get to the East Rongbuk Glacier, we just walk uphill from 
+        <a href="teacher?query=$$basecamp">Base Camp.</a>
+      </else>
+    </btw>
+  </answer>
+ 
+  <answer topic="zpeastrong" synonym="rprev" essence="eastrong" 
+  about="getting to Advanced Base Camp">
+    <btw topic="eastrong">
+      <include answer="eastrong"/> 
+      <else>
+        To get to Advanced Base Camp from 
+        <a href="teacher?query=$$basecamp">Base Camp,</a>
+        we follow the 
+        <a href="teacher?query=$$eastrong">East Rongbuk Glacier.</a>
+      </else>
+    </btw>
+  </answer>
+ 
+  <answer topic="zpabc" synonym="rprev" essence="abc" 
+  about="getting to the Headwall">
+    <btw topic="abc">
+      Just below the Headwall is <i>Advanced Base</i>... Let me tell 
+      you about it. 
+      <p/>
+      <include answer="abc"/> 
+      <else>
+        To get to the Headwall from 
+        <a href="teacher?query=$$basecamp">Base Camp,</a>
+        we follow the 
+        <a href="teacher?query=$$eastrong">East Rongbuk Glacier</a>
+        up to 
+        <a href="teacher?query=$$abc">Advanced Base Camp.</a>
+        From there, we're staring at the Headwall. 
+      </else>
+    </btw>
+  </answer>
+ 
+  <answer topic="zpheadwall" synonym="rprev" essence="headwall" 
+  about="getting to the North Col">
+    <btw topic="headwall">
+      We get to the North Col by climbing the <i>headwall</i>... which
+      is the hardest part of the climb up to this point! Let me tell 
+      you about it. 
+      <p/>
+      <include answer="headwall"/> 
+      <else>
+        To get to the North Col from 
+        <a href="teacher?query=$$basecamp">Base Camp,</a>
+        we follow the 
+        <a href="teacher?query=$$eastrong">East Rongbuk Glacier</a>
+        up to 
+        <a href="teacher?query=$$abc">Advanced Base Camp,</a>
+        then climb the 
+        <a href="teacher?query=$$headwall">headwall.</a>
+      </else>
+    </btw>
+  </answer>
+ 
+  <answer topic="zpcamp4" synonym="rprev" essence="camp4" 
+  about="getting to the North Ridge">
+    <btw topic="camp4">
+      The base of the North Ridge is just out my back door here. 
+      <p/>
+      <include answer="camp4"/> 
+      <else>
+        To get to the North Ridge from 
+        <a href="teacher?query=$$basecamp">Base Camp,</a>
+        we follow the 
+        <a href="teacher?query=$$eastrong">East Rongbuk Glacier</a>
+        up to 
+        <a href="teacher?query=$$abc">Advanced Base Camp,</a>
+        then climb the 
+        <a href="teacher?query=$$headwall">headwall</a>
+        to 
+        <a href="teacher?query=$$camp4">Camp 4,</a>
+        which lies at the bottom of the North Ridge. 
+      </else>
+    </btw>
+  </answer>
+ 
+  <answer topic="zpnoridge" synonym="rprev" essence="noridge" 
+  about="getting to Camp 5">
+    <btw topic="noridge">
+      <include answer="noridge"/> 
+      <else>
+        To get to the Camp 5 from 
+        <a href="teacher?query=$$basecamp">Base Camp,</a>
+        we follow the 
+        <a href="teacher?query=$$eastrong">East Rongbuk Glacier</a>
+        up to 
+        <a href="teacher?query=$$abc">Advanced Base Camp,</a>
+        then climb the 
+        <a href="teacher?query=$$headwall">headwall</a>
+        to 
+        <a href="teacher?query=$$camp4">Camp 4</a>
+        on the North Col, then climb the 
+        <a href="teacher?query=$$noridge">North Ridge</a>
+        to Camp 5. 
+      </else>
+    </btw>
+  </answer>
+ 
+  <answer topic="zpcamp5" synonym="rprev" essence="camp5" 
+  about="getting to Camp 6">
+    <btw topic="camp5">
+      Not surprisingly for those with basic mathematical aptitude, we 
+      get to Camp 6 from <i>Camp 5.</i> 
+      <p/>
+      <include answer="camp5"/> 
+      <else>
+        To get to the Camp 6 from 
+        <a href="teacher?query=$$basecamp">Base Camp,</a>
+        we follow the 
+        <a href="teacher?query=$$eastrong">East Rongbuk Glacier</a>
+        up to 
+        <a href="teacher?query=$$abc">Advanced Base Camp,</a>
+        then climb the 
+        <a href="teacher?query=$$headwall">headwall</a>
+        to 
+        <a href="teacher?query=$$camp4">Camp 4</a>
+        on the North Col, then climb the 
+        <a href="teacher?query=$$noridge">North Ridge</a>
+        to 
+        <a href="teacher?query=$$camp5">Camp 5.</a>
+        Then, we cut across the North Face toward the summit, stopping
+        for a picnic lunch at Camp 6. 
+      </else>
+    </btw>
+  </answer>
+ 
+  <answer topic="zpcamp6" synonym="rprev" essence="camp6" 
+  about="getting in position for Summit Day">
+    <btw topic="camp6">
+      Our summit attempts are being made from <i>Camp 6</i>... let me 
+      tell you about it. 
+      <p/>
+      <include answer="camp6"/> 
+      <else>
+        To get in position for a summit attempt, we start at 
+        <a href="teacher?query=$$basecamp">Base Camp,</a>
+        then follow the 
+        <a href="teacher?query=$$eastrong">East Rongbuk Glacier</a>
+        up to 
+        <a href="teacher?query=$$abc">Advanced Base Camp,</a>
+        then climb the 
+        <a href="teacher?query=$$headwall">headwall</a>
+        to 
+        <a href="teacher?query=$$camp4">Camp 4</a>
+        on the North Col, then climb the 
+        <a href="teacher?query=$$noridge">North Ridge</a>
+        to 
+        <a href="teacher?query=$$camp5">Camp 5.</a>
+        Then, we cut across the North Face toward the summit, stopping
+        for a picnic lunch at 
+        <a href="teacher?query=$$camp6">Camp 6.</a>
+        At midnight, we're on our way up to the top. 
+      </else>
+    </btw>
+  </answer>
+ 
+  <question topic="howlong">
+    How long have you been on the mountain?
+  </question>
+  <question topic="howlong">schedule</question>
+  <question topic="howlong">timetable</question>
+  <question topic="howlong">timeframe</question>
+  <question topic="howlong">
+    How long does it take to climb Everest?
+  </question>
+  <question topic="howlong">Have you been there long?</question>
+  <answer topic="howlong" about="timetable for the climb" 
+  next="route,weather,where,basecamp">
+    <img src="evm037.jpg" align="right"/>
+    We arrived at 
+    <a href="teacher?query=$$basecamp">Base Camp,</a>
+    in mid March, and now it's near the middle of May. We'll be outta 
+    here sometime in early June. 
+    <p/>
+    Generally speaking, the first month and a half we're building up 
+    supplies in the first four camps... using 
+    <a href="teacher?query=$$yaks">yak</a>
+    support as far as Camp 3 (which we call 
+    <a href="teacher?query=$$abc">Advanced Base Camp,</a>
+    at 21,500 feet) and then setting in fixed lines up the headwall so
+    we can move loads here to the 
+    <a href="teacher?query=$$camp4">North Col.</a>
+    <p/>
+    From early May onwards, depending on the weather, we're moving 
+    supplies to the upper mountain, and finally embarking on 
+    <a href="teacher?query=$$sumday">summit attempts.</a>
+    <p/>
+    There's not a lot of flexibility to expand this timetable. Can't 
+    start much earlier, because of winter storms. Can't leave much 
+    later, because the Monsoon arrives. 
+  </answer>
+ 
+  <question topic="cuz">
+    What made you want to climb Everest?
+  </question>
+  <question topic="cuz">why are you climbing everest</question>
+  <question topic="cuz">why climb</question>
+  <question topic="cuz">why climb Everest</question>
+  <answer topic="cuz" about="why I'm climbing Everest" 
+  next="sumday,route,where,weather">
+    <img src="evm063.jpg" align="right"/>
+    <img src="evm190.jpg" align="right"/>
+    Climbing Everest isn't quite the way it comes out on TV. Very 
+    little of it is glorious when you're here; A lot of it is 
+    downright tedious. 
+    <p/>
+    As I struggle my way up the headwall to get here on the North Col,
+    I don't imagine myself climbing with dramatic music in the 
+    background. When I'm out there on the North Face, struggling to 
+    breathe, I have a hard time thinking at all, much less thinking 
+    about Man's struggle against adversity. 
+    <p/>
+    Somehow, though, upon return to day to day life, selective memory 
+    changes all that. It <i>becomes</i> glorious. Even the tedious 
+    parts. That's when we take up our pens, keyboards, and 
+    microphones... creating books, web pages, and movies... the 
+    "export version" of Everest. 
+    <p/>
+    Much of the satisfaction and feeling of achievement, when it gets 
+    down to it, is very private. Have you ever actually <i>been</i> 
+    the highest person on the planet, gazing out at the horizon, dimly
+    aware that your ass is grass if anything at all goes wrong? If 
+    life is measured by the depth and variety of experiences, I 
+    recommend this one... no music in the background, no commercial 
+    breaks, no going home and coming back tomorrow. 
+    <p/>
+    Climbing Everest is an experience like no other. I feel very 
+    privileged to have the chance to be here, as a participant. 
+  </answer>
+ 
+  <question topic="yeti">Have you seen the Yeti?</question>
+  <question topic="yeti">Is there an Abominable Snowman?</question>
+  <answer topic="yeti" about="Abominable Snowmen" offer="no" 
+  next="tibet,kathmandu,sherpas,rongmon">
+    <img src="evm055.jpg" align="right"/>
+    I haven't seen the Yeti. 
+    <p/>
+    But I <i>have</i> seen Curtis. 
+  </answer>
+ 
+  <question topic="gear">
+    What climbing equipment do you use?
+  </question>
+  <question topic="gear">ice axe</question>
+  <question topic="gear">crampons</question>
+  <question topic="gear">boots</question>
+  <answer topic="gear" about="climbing gear" 
+  next="clothing,food,water,oxy,typday">
+    <img src="evm231.jpg" align="right"/>
+    Let's look at the climbing gear we typically use here on Everest, 
+    above and beyond the specialized 
+    <a href="/teacher=?query=$$clothing">clothing</a>
+    that's needed. 
+    <p/>
+    First, on much of the mountain, we'll tend to be roped up... after
+    all, if we break through the glacier surface into a hundred foot 
+    hidden crevasse, or if we stumble on a slope which may drop away 
+    for thousands of feet, it could ruin your day... <i>especially</i>
+    if the last thing you hear is the cruel laughter of your 
+    teammates. That's right, <i>take the bastards with you...</i> or 
+    at least establish a strong vested interest in helping you break 
+    your fall. 
+    <p/>
+    The ice axe is a multi purpose tool. It can be used for chopping 
+    steps, or to arrest a fall by plunging the hook into the passing 
+    terrain. Its most common use is more mundane... as a walking 
+    stick. 
+    <p/>
+    None of the above gear is especially exotic... it's all used on 
+    weekend trips to the Cascades or the Alps. The boots on Everest, 
+    however, might be a bit different. Feet are especially prone to 
+    <a href="teacher?query=$$frostbite">frostbite</a>
+    , as the body looks after the torso and head first when warmth is 
+    in short supply... and since the circulatory system is less 
+    efficient at altitude. 
+    <p/>
+    Expedition double boots have a hard plastic outer shell, outside 
+    which you typically wear an insulated supergaiter. Inside, there's
+    an alveolite liner, and several layers of socks, some for 
+    insulation and some to conduct skin moisture away. 
+    <p/>
+    Attached to the boots are <i>crampons...</i> each having about a 
+    dozen two inch long steel spikes. These turn you into Spiderman on
+    steep ice terrain. 
+  </answer>
+ 
+  <question topic="mallory">Who was Mallory?</question>
+  <question topic="mallory">Who was Irvine?</question>
+  <question topic="mallory">Who said "Because it's there"?</question>
+  <answer topic="mallory" about="Mallory and Irvine" 
+  next="oxy,route,cuz">
+    <img src="mallory.jpg" align="left"/>
+    <table align="right" width="0%">
+      <tr>
+        <td valign="middle" align="center">
+          <img src="nort1924.jpg"/>
+        </td>
+        <td valign="middle" align="center">
+          <img src="nort1994.jpg"/>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          1924 
+        </td>
+        <td align="center">
+          1994 
+        </td>
+      </tr>
+    </table>
+    Following the first serious attempt on Everest, by the English in 
+    1922, George Leigh Mallory was on a speaking tour in the United 
+    States, seeking funding for the 1924 attempt. Asked why he wanted 
+    to climb Everest, he shot back what has become the most famous 
+    answer to that question: 
+    <p/>
+    "Because it's <i>there.</i>" 
+    <p/>
+    Some think that it was actually an impatient response to an 
+    ignorant audience from a tired speaker. But during that time, 
+    Mallory had taken to using the word <i>there</i> as something of a
+    mystical, existential term of reference... something was "<i>there
+    </i>" if it had qualities one can only know and not explain. 
+    "You're <i>there,</i> man." How apt... 
+    <p/>
+    The 1924 expedition would prove to be his undoing. Mallory and 
+    Irvine disappeared high on Everest, creating the the biggest 
+    mystery of mountaineering history. Did they actually succeed, 
+    climbing Everest decades before Hillary? 
+    <p/>
+    As for Everest, it's still <i>there.</i> And so are Mallory and 
+    Irvine. 
+    <p/>
+    <img src="malirv.jpg" align="right"/>
+    Strangely enough, our route is the same as theirs. Same 
+    <a href="teacher?query=$$basecamp">base camp,</a>
+    same route up the 
+    <a href="teacher?query=$$eastrong">East Rongbuk Glacier,</a>
+    same route up the 
+    <a href="teacher?query=$$headwall">headwall,</a>
+    same 
+    <a href="teacher?query=$$camp4">Camp 4</a>
+    here on the North Col, where the last photo of Mallory and Irvine 
+    was taken, almost 70 years ago to the day, at this very place, 
+    just before their fatal push higher. 
+  </answer>
+ 
+  <question topic="health">diarrhea</question>
+  <question topic="health">headache</question>
+  <question topic="health">Do people get sick</question>
+  <question topic="health">Is it hard to sleep</question>
+  <question topic="health">disease</question>
+  <question topic="health">ill</question>
+  <question topic="health">illness</question>
+  <answer topic="health" about="health problems on Everest" 
+  next="acclim,frostbite,water,dzone">
+    <img src="evm127.jpg" align="right"/>
+    Good health doesn't come naturally on Everest... indeed, the 
+    opposite is true. 
+    <p/>
+    Most of the time, altitude is directly or indirectly responsible 
+    for health woes up here. Altitude leads to <i>hypoxia,</i> or lack
+    of oxygen to the brain... leading to reduced mental function, 
+    exhaustion, and sleeplessness. It also disrupts the bodies' 
+    plumbing, leading to pulmonary and cerebral edema, strokes, and 
+    bronchial dysfunction. We are also more susceptible to infection, 
+    and vomiting and diarrhea are common on the mountain. 
+    <p/>
+    That reminds me of my last carry up here to the North Col. Alex 
+    was here, in another tent, and he wasn't feeling well. I was going
+    over to say "hey", and as I approached his tent, I heard the 
+    sounds of desperate struggling with the tent zipper... Alex' head 
+    popped out, without a moment to spare, as projectile vomit spewed 
+    out across the snow. I suppose it might have been more 
+    conventional to open the conversation by saying "nice weather 
+    we're having," but neither Alex' condition, nor the weather's, 
+    were cooperating that day. 
+    <p/>
+    Vomiting wasn't his only problem... he was "firing from both 
+    ends". The difficulties this creates under extreme conditions does
+    not bear further discussion. Alex had just taken his last <i> 
+    lomotil</i> pills, which control diarrhea... I could tell you what
+    a lifesaver these little pills can be, but Alex' next actions tell
+    the story more vividly. He picked through his puke, found those 
+    pills, and ingested them a second time. 
+    <p/>
+    Conditions like this are actually very dangerous. They can lead to
+    weakness and 
+    <a href="teacher?query=$$water">dehydration.</a>
+    The best bet is to descend to base camp, where recovery is faster,
+    and there's help if the situation worsens. 
+  </answer>
+ 
+  <question topic="aval">Have there been any avalanches</question>
+  <question topic="aval">
+    What is the biggest killer on Everest
+  </question>
+  <question topic="aval">Is there avalanche danger</question>
+  <question topic="aval">
+    What is the most common cause of death
+  </question>
+  <answer topic="aval" about="avalanches" next="risks">
+    <img src="evm400.jpg" align="right"/>
+    Sometimes, mishaps occur on Everest, and people just disappear. 
+    Like the Italian guy a few weeks ago. He's just gone. There are 
+    questions, but nobody to answer them. (They found his pack.) 
+    <p/>
+    <hr/> 
+    <p/>
+    And so, the Canadians are trying a new route. Rather than topping 
+    out on the 
+    <a href="teacher?query=$$noridge">North Ridge,</a>
+    they take a hard right partway up, cut across the North Face. 
+    They've established their Camp 5 out there on the face somewhere, 
+    and have fixed lines running along part of the route. A few weeks 
+    ago, that face had been swept pretty clean by the jet stream; but 
+    now, as those winds abate, both climbers and the snows return. The
+    combination isn't always an advantageous one for the climbers. 
+    <p/>
+    And so it came to pass that John, tooling along doing a carry to 
+    Camp 5, found himself looking up at the business end of an 
+    approaching avalanche. 
+    <p/>
+    Fate had provided a rock outcropping above him... thinking 
+    quickly, somehow he managed to unrope and drop to an 
+    <a href="teacher?query=$$gear">ice axe</a>
+    arrest position below that outcropping. The avalanche swept past 
+    him on both sides, as well as above him (over the outcropping). 
+    For a few terrifying moments, he was surrounded by rushing snow, 
+    not knowing if, a moment later, he might be joining it on its 
+    journey down the Face. 
+    <p/>
+    The avalanche ended as quickly as it had begun. Miraculously John 
+    was okay. The fixed rope was swept away. If he hadn't unroped, or 
+    if he'd been half a minute slower or faster that day (so that he 
+    wasn't under an outcropping), he would have taken the express 
+    ticket to the Central Rongbuk Glacier. 
+    <p/>
+    <hr/> 
+    <p/>
+    So, mishaps occur on Everest, and sometimes people come back. This
+    was one of those stories. John is at 
+    <a href="teacher?query=$$abc">Advanced Base Camp</a>
+    now, thrilled to be alive. Thrilled enough to try again? 
+    <p/>
+    Avalanches are the biggest killer on Everest... twice as deadly as
+    falls, five times as deadly as exhaustion or exposure. 
+  </answer>
+ 
+  <question topic="risks">Are you afraid of the danger?</question>
+  <question topic="risks">Isn't it risky?</question>
+  <question topic="risks">
+    Has anyone died on your expedition?
+  </question>
+  <question topic="risks">Are you afraid?</question>
+  <question topic="risks">Aren't you scared?</question>
+  <question topic="risks">
+    Don't you think it's too dangerous?
+  </question>
+  <question topic="risks">Have you seen any dead bodies?</question>
+  <question topic="risks">Have you had any close calls?</question>
+  <question topic="risks">died?</question>
+  <question topic="risks">killed?</question>
+  <question topic="risks">crisis?</question>
+  <question topic="risks">accidents?</question>
+  <question topic="risks">crises?</question>
+  <answer topic="risks" about="the risks" 
+  next="dzone,aval,frostbite,acclim">
+    I don't think it's any secret that Everest can be hazardous to 
+    your health. It's not that you feel at risk all the time... to the
+    contrary. I've been here long enough that things have taken on an 
+    aspect of a comfortable daily routine. 
+    <p/>
+    But it's deceiving. Dangers do rear up, and in this remote place 
+    and in these extreme conditions, mistakes often have a high price.
+    Fate has a license to kill. Sometimes it seems as if Fate is 
+    taking potshots from a distance. 
+    <p/>
+    There have been three deaths on this side of Everest since we 
+    arrived. One was a case of pulmonary edema (a Sherpa). One was a 
+    fall, taken by one of the Italian climbers in an exposed place on 
+    the face. (They found his pack; no sign of him.) And, just last 
+    week, there was the 
+    <a href="teacher?query=$$norman">Taiwanese climber</a>
+    who died of exhaustion on descent from the summit. 
+    <p/>
+    Each time, each one of us thought, with good reason, <i>that could
+    have been me.</i> But you can't dwell on it. I suppose these 
+    things are in the back of our mind, rather than dominating our 
+    thoughts, as we move up the mountain. 
+    <p/>
+    There's around hundred dead bodies on the mountain. Every once in 
+    a while... not very often... you see human remains up here. 
+    Somebody told me there's a skull exposed up on the North Ridge... 
+    I haven't seen it, and I'm not about to look for it, but that kind
+    of thing comes with the territory. 
+    <p/>
+    Of course, it's not Fate that's taking potshots... it's us. We 
+    make the decisions which push things too far, we make faulty 
+    decisions which place us in high risk situations. Much of climbing
+    is about doing things in a way which minimize the exposure to 
+    risk... you won't find daredevils up here, or at least you won't 
+    find them for long. 
+    <p/>
+    Planning and preparation minimize risk, but can't eliminate it. 
+    This is an inherently dangerous activity and risk is an integral 
+    part of climbing Everest. Everest will continue to draw climbers, 
+    and some proportion of those will never return. 
+  </answer>
+ 
+  <question topic="food">
+    What sort of food do you eat on the mountain?
+  </question>
+  <question topic="food">what do you eat up here?</question>
+  <answer topic="food" about="dining etiquette on Everest" 
+  next="water,gear,typday">
+    <img src="evm031.jpg" align="right"/>
+    Can't find a weight loss diet that works for you? Let me recommend
+    Everest. 
+    <p/>
+    I've lost 25 pounds. One of our guys lost a third of his body 
+    weight, and had to abandon the climb. 
+    <p/>
+    On the upper mountain, food is pretty simple... mostly soup and 
+    snacks. It's all about calories, not proteins, since the body 
+    can't really assimilate protein at these sorts of altitudes. You 
+    can have all the calories you want up here without any worry... 
+    there's pretty well no chance that you could ever consume as many 
+    calories as you'll burn. Soup is good up high, because it contains
+    the 
+    <a href="teacher?query=$$water">water</a>
+    that is so important at altitude. 
+    <p/>
+    Food at both 
+    <a href="teacher?query=$$basecamp">Base Camp</a>
+    and 
+    <a href="teacher?query=$$abc">Advanced Base Camp</a>
+    has a bit more scope. Lots of stew, rice, noodles... carbohydrates
+    are good things. 
+  </answer>
+ 
+  <question topic="camp4">is it beautiful</question>
+  <question topic="camp4">What's the view like?</question>
+  <question topic="camp4">Where is Camp 4?</question>
+  <question topic="camp4">Tell me about Camp 4?</question>
+  <question topic="camp4">How high is Camp IV</question>
+  <answer topic="camp4" about="the view from here" 
+  next="znnoridge,camp5,camp6,route,zpheadwall,where">
+    <img src="evs107.jpg" align="right"/>
+    <img src="evs096.jpg" align="right"/>
+    This place... call it the North Col, or Camp 4... I call it home 
+    for now. But it is a really cool place... not only in terms of 
+    temperature, but also in terms of the view. 
+    <p/>
+    I can see 
+    <a href="teacher?query=$$abc">Advanced Base Camp</a>
+    down there on the 
+    <a href="teacher?query=$$camp1">East Rongbuk glacier,</a>
+    maybe 1500 feet below me. I've got the 
+    <a href="teacher?query=$$noridge">North Ridge,</a>
+    leading to the North Face of Everest over here... an imposing 9000
+    foot slab... the setting for many triumphs and tragedies. 
+    <p/>
+    <img src="evm225.jpg" align="right"/>
+    This camp is on top of a 1500 foot 
+    <a href="teacher?query=$$headwall">headwall</a>
+    ... I'm surrounded by tumultuous sculptures of snow and ice. The 
+    sky, when it's clear, is an unreal deep blue... in part because 
+    we're so high. There's relatively little atmosphere above us to 
+    catch the light. 
+    <p/>
+    You can see the 
+    <a href="teacher?query=$$tents">tents</a>
+    here, huddled on the lee (or Rongbuk) side of the ridge, sheltered
+    from the winds coming across the North Face. 
+  </answer>
+ 
+  <answer topic="zneastrong" about="the East Rongbuk Glacier" 
+  synonym="rnext">
+    <include answer="eastrong"/> 
+  </answer>
+ 
+  <answer topic="znabc" about="Advanced Base Camp" synonym="rnext">
+    <include answer="abc"/> 
+  </answer>
+ 
+  <answer topic="znheadwall" about="the Headwall" synonym="rnext">
+    <include answer="headwall"/> 
+  </answer>
+ 
+  <answer topic="zncamp4" about="Camp 4" synonym="rnext">
+    <include answer="camp4"/> 
+  </answer>
+ 
+  <answer topic="znnoridge" about="the North Ridge" synonym="rnext">
+    <include answer="noridge"/> 
+  </answer>
+ 
+  <answer topic="zncamp5" about="Camp 5" synonym="rnext">
+    <include answer="camp5"/> 
+  </answer>
+ 
+  <answer topic="zncamp6" about="Camp 6" synonym="rnext">
+    <include answer="camp6"/> 
+  </answer>
+ 
+  <answer topic="znsumday" about="Summit Day" synonym="rnext">
+    <include answer="sumday"/> 
+  </answer>
+ 
+  <question topic="cost">Is it expensive climbing Everest</question>
+  <question topic="cost">Who are your sponsors?</question>
+  <question topic="cost">What does an expedition cost?</question>
+  <question topic="cost">
+    How much does it cost to climb Everest?
+  </question>
+  <question topic="cost">
+    How much does it cost to be up on the mountain?
+  </question>
+  <question topic="cost">cost?</question>
+  <question topic="cost">What does it cost?</question>
+  <question topic="cost">cost of climbing</question>
+  <question topic="cost">is it expensive</question>
+  <question topic="cost">how expensive is it</question>
+  <answer topic="cost" about="expedition finances">
+    I suppose the expenses for this expedition might run on the order 
+    of half a million to a million bucks. Part of that is covered by 
+    climbers, and part by sponsors. Kind of hard to scare up sponsors,
+    though... you and I both know that Everest has been climbed 
+    before, so Everest isn't the marketing magnet it once might have 
+    been. 
+    <p/>
+    I think we have forty sponsors. Some of these are small time 
+    products, looking for a dramatic photo with a smiling climber high
+    on Everest. I think the biggest sponsor is a major U.S. food 
+    company... we have several of their researchers at base camp doing
+    a research project to measure the body's reaction to various types
+    of nutrition at altitude. 
+    <p/>
+    If I had to put a pricetag on an Everest ticket for one person, it
+    would have to be on the high side of $30,000. Your mileage may 
+    vary. 
+  </answer>
+ 
+  <question topic="rhein">Mike Rheinberger?</question>
+  <question topic="rhein">What happened to Rheinberger?</question>
+  <answer topic="rhein" about="Mike Rheinberger" offer="no">
+    <img src="evm032.jpg" align="right"/>
+    <img src="evrmemo.jpg" align="right"/>
+    Mike Rheinberger had so many stories to tell... and boy, could he 
+    tell them. He was a stunningly experienced mountaineer... I don't 
+    know how to put that in perspective; but let me try. 
+    <p/>
+    If Sir Edmund Hillary and Tenzing Norgay could have met Mike as 
+    they approached Everest for the first time in 1953, they would 
+    have been awestruck by the depth of his mountaineering experience,
+    and looked to Mike for advice. 
+    <p/>
+    Mike has climbed, and led, expeditions all across the Himalayas...
+    China, Tibet, India, Pakistan, Nepal... peaks ranging from the 
+    famous to the obscure. He had ascended above 7,000 meters (23,000 
+    feet) some 40 times. He had cleared 8,000 meters (25,600 feet) 
+    eight times. When Hillary climbed Everest, I think he had one trip
+    above 7,000 meters under his belt. 
+    <p/>
+    But Mike's first love was Everest... he returned again and again, 
+    from the West, from the North, and from the South. Much of the 
+    material on this site describes the 1994 American North Ridge 
+    Expedition, Mike's seventh on Everest... an incredible 
+    accomplishment all by itself. 
+    <p/>
+    <img src="evm175.jpg" align="right"/>
+    Mike was an accomplished climber, and yet he was also an 
+    accomplished listener. Perhaps his most endearing characteristic 
+    was his lack of pretense. Many may remember him for his obscene 
+    limericks rather than his climbing achievements; why would he 
+    bother to talk to you about the latter? He was not on Everest to 
+    prove anything, other than to himself. 
+    <p/>
+    Depending on circumstances, Mike was capable of being either an 
+    extrovert and an introvert. I would hope he was beyond 
+    introspection... indeed, beyond pain... when he met his end on the
+    Northeast Ridge. 
+    <p/>
+    If there is a Beyond, Mike is <i>there,</i> observing, joking, 
+    conversing, thinking, enjoying, and exploring all its farthest 
+    corners. 
+  </answer>
+ 
+  <question topic="clothing">How do you keep warm?</question>
+  <question topic="clothing">What are you wearing?</question>
+  <question topic="clothing">
+    What kind of clothes do you wear?
+  </question>
+  <answer topic="clothing" about="high fashion" 
+  next="gear,food,water,oxy">
+    <table>
+      <tr>
+        <td valign="top" width="100%">
+          Some people regard have<i> just</i> the right outfit to be a
+          matter of life and death. Here, that's literally the way it 
+          is. 
+          <p/>
+          "High" fashion, Everest style, is all about layers. Layers 
+          to capture warmth, and to protect the insulating power of 
+          other layers. 
+          <p/>
+          Insulating power varies widely with different materials, and
+          with the moisture level present in those materials. 
+          Normally, layers close to the body are materials such as 
+          polypropelene which wicks moisture away from the skin. Then,
+          layers might include things like wool which insulate well 
+          regardless of moisture level. Then there might be a layer or
+          two of down or synthetic materials which, like down, capture
+          warm air for insulation. An outer layer such as GoreTex 
+          might finish off the outfit. 
+          <p/>
+          Headgear is especially important... in cold temperatures 
+          more than half the body's heat loss is through the head. 
+          <p/>
+          One fashion statement you'll find, especially on the upper 
+          mountain, is the full body down suit. With a Goretex shell, 
+          it is a practical approach to dealing with the challenges of
+          cold and wind. 
+        </td>
+        <td valign="middle">
+          <img src="evm169.jpg"/>
+        </td>
+      </tr>
+    </table>
+  </answer>
+ 
+  <question topic="skills">Is the climbing difficult?</question>
+  <question topic="skills">
+    If I wanted to climb Everest, what skills should I learn?
+  </question>
+  <question topic="skills">
+    How difficult is climbing Everest?
+  </question>
+  <question topic="skills">How hard is it to climb Everest?</question>
+  <question topic="skills">Is it hard climbing Everest?</question>
+  <question topic="skills">
+    What are the biggest climbing obstacles?
+  </question>
+  <question topic="skills">
+    What is the hardest part of the climb?
+  </question>
+  <answer topic="skills" about="mountaineering skills" 
+  next="gear,mybio,route">
+    <img src="evm298.jpg" align="right"/>
+    Does the highest mountain require the highest mountaineering 
+    skills? And if somebody <i>is</i> gifted with an unusually good 
+    climbing ability, is it natural for them to look towards Everest, 
+    as the ultimate test of those abilities? 
+    <p/>
+    I think the answer to both of these questions is "no". 
+    <p/>
+    Everest requires skills, to be sure, but perhaps high mountain <i>
+    experience</i> is the more important asset on a mountain like 
+    this, where the technical climbing challenges are overshadowed by 
+    challenges involving altitude, weather, or simply knowing your 
+    limits in extreme situations. 
+    <p/>
+    Most people here have pretty extensive Himalayan climbing 
+    experience. I suppose several people here can climb sheer rock 
+    walls, but we're unlikely to find out without asking. It's just 
+    not that kind of territory. 
+    <p/>
+    There's lots of glacier work here. There's some roped ice climbing
+    on the headwall. And there's a lot of steep mixed ice and rock on 
+    the upper mountain. None of these things will be novel to anybody 
+    with the right sort of experience. 
+  </answer>
+ 
+  <question topic="route">What route are you climbing?</question>
+  <question topic="route">
+    Are you using the same route as Hillary?
+  </question>
+  <question topic="route">Are you climbing the north ridge?</question>
+  <question topic="route">route</question>
+  <answer topic="route" about="our route" next="basecamp,eastrong,abc"
+  >
+    <img src="iamhere.jpg" vspace="10" hspace="10" align="right"/>
+    Here are your easy-to-follow directions to the top of Everest. 
+    This view is from Cho Oyu, a 26,000 foot peak in the northern 
+    suburbs of Everest. It's the best photo I've seen for describing 
+    routes on the upper mountain. 
+    <p/>
+    See the top of Everest? Follow down its right skyline, sloping 
+    into the picture, away from you. That's the South Ridge; the 
+    saddle at its lower end is the South Col; below that, the Khumbu 
+    headwall. This is the route of the first ascent of Everest, by Sir
+    Edmund Hillary and Tenzing Norgay, in 1953. Some 80% of all 
+    Everest ascents are from the South. 
+    <p/>
+    The ridge coming straight toward you is the West Ridge. This is 
+    the route of the first American ascent of Everest in 1963. Last 
+    but not least, the long left skyline is the Northeast Ridge. 
+    <p/>
+    As for us, we scrambled up the 
+    <a href="teacher?query=$$water">East Rongbuk Glacier</a>
+    around behind Changtse (the symmetrical pointed peak left of 
+    Everest), then climbed the glacier's 
+    <a href="teacher?query=$$headwall">headwall</a>
+    (behind the ridge from here) up here to the 
+    <a href="teacher?query=$$where">North Col</a>
+    (the sunlit saddle between Changtse and the main Everest massif). 
+    Next, we'll climb the 
+    <a href="teacher?query=$$noridge">North Ridge</a>
+    cross the face to 
+    <a href="teacher?query=$$camp6">Camp 6,</a>
+    gain the Northeast Ridge partway along, and follow it up to the 
+    <a href="teacher?query=$$sumday">summit.</a>
+    <p/>
+    What could be simpler? 
+  </answer>
+ 
+  <question topic="crowd">
+    Are there lots of other climbers on the mountain?
+  </question>
+  <question topic="crowd">Is it crowded?</question>
+  <question topic="crowd">Is there lots of trash?</question>
+  <question topic="crowd">
+    Aren't there too many people climbing Everest?
+  </question>
+  <question topic="crowd">how many people are there</question>
+  <question topic="crowd">
+    How many expeditions are on the mountain?
+  </question>
+  <answer topic="crowd" about="the number of Everest climbers">
+    Our team has about a dozen climbers, and about a dozen support 
+    people... climbing sherpas, base camp staff. 
+    <p/>
+    There are other expeditions here, too... one from Canada, one from
+    Germany, one from Italy, one from New Zealand, one from Taiwan... 
+    <p/>
+    It's not like it's crowded or something. I mean, base camp is a 
+    bit of an international ghetto, but up the hill, people are spread
+    across a vast territory... over a dozen miles horizontally, over 
+    two miles vertically... it's sort of comical when people worry 
+    about "crowding" up here. Everest in the height of climbing season
+    is more sparsely populated than most any inhabited place on the 
+    planet. 
+  </answer>
+ 
+  <question topic="mybio">Tell me about yourself</question>
+  <question topic="mybio">Who are you?</question>
+  <question topic="mybio">Where are you from?</question>
+  <question topic="mybio">What is your nationality?</question>
+  <question topic="mybio">What country are you from?</question>
+  <question topic="mybio">How old are you?</question>
+  <question topic="mybio">Where have you climbed before?</question>
+  <question topic="mybio">
+    What kind of climbing experience do you have?
+  </question>
+  <question topic="mybio">
+    What climbing qualifications do you have?
+  </question>
+  <answer topic="mybio" about="my background">
+    <img src="evm296.jpg" align="right"/>
+    Well, I'd rather talk to you about Everest than talk to you
+    about <i>me,</i> but maybe a little background might
+    provide some perspective...
+    <p/>
+    I'm an American from Illinois, which is where I grew up. When I was
+    younger, I was interested in backpacking and skiing... which both 
+    contributed to a fascination with high mountains.
+    I climbed in the Rockies, Sierras, and Cascades,
+    then set my sights farther afield.
+    <p/>
+    McKinley was my first expedition. Since then, I've gone on a number
+    of Himalayan expeditions... India, Tadjikistan, Nepal, and Tibet.
+    In between
+    those larger peaks, I managed to climb peaks like The Matterhorn, 
+    Mt. Blanc, Kilimanjaro, and so forth. 
+    <p/>
+    More than pure technical mountaineering skills, those climbs game 
+    me important <i>experiences</i> that help me here on Everest. I 
+    mean, I'm not one of those guys you'll find skillfully dangling by
+    my fingernails, unroped, from a backward-leaning rock wall. Unlike
+    those guys, though, I have a feel for living on a mountain for 
+    months at a time... and I know that, if I made a habit of 
+    risk-seeking during those months, I'd end up spending the rest of 
+    my life on the mountain. 
+    <p/>
+    I'm an engineer by trade, in my late thirties. Yeah, yeah, I 
+    know... a bit old to be out to play like this, but what else was I
+    going to do today? And, as it turns out, this is pretty well the 
+    ideal age for climbing Everest... younger climbers often have more
+    trouble with the altitude, among other things.
+  </answer>
+  <key phrase="take a shit"/>
+  <key phrase="taking a shit"/>
+  <key phrase="take a dump"/>
+  <key phrase="taking a dump"/>
+ 
+  <question topic="toilet">
+    What happens when you need to take a shit?
+  </question>
+  <question topic="toilet">
+    How would you go about taking a dump?
+  </question>
+  <question topic="toilet">how would you take a dump?</question>
+  <question topic="toilet">defecate?</question>
+  <question topic="toilet">urinate</question>
+  <question topic="toilet">Where do you piss?</question>
+  <question topic="toilet">Where do you go to the bathroom?</question>
+  <question topic="toilet">How do you go to the toilet?</question>
+  <question topic="toilet">Where do you go to the toilet?</question>
+  <question topic="toilet">What if you need to take a crap?</question>
+  <question topic="toilet">what about taking a shit?</question>
+  <question topic="toilet">How do you take a shit?</question>
+  <answer topic="toilet" about="toilet facilities" 
+  next="highchair,wash,food,water,clothing">
+    <img src="evm214.jpg" align="right"/>
+    Everybody asks me this. Sheesh. Where do you <i>think</i> I would 
+    go to the bathroom? Do you see any bathrooms around here? 
+    <p/>
+    Oh. You do. I guess I have some explaining to do. 
+    <p/>
+    This interesting little structure was shipped here to Base Camp 
+    from the USA, created by people who must imagine the climbing of 
+    Everest on different terms than I do. You see, this is a carefully
+    engineered recycling device. 
+    <p/>
+    Around the other side, mercifully hidden from view, is a large 
+    Plexiglas chamber, exposing precious contents to the sun. This 
+    chamber provides an environment suitable to foster 
+    biodecomposition. This is a good thing for some reason. 
+    <p/>
+    To make sure those Commie bacteria are <i>WORKING,</i> you guessed
+    it, the chamber is equipped with a <i>thermometer.</i> Sure 
+    enough, it was over 90 degrees Fahrenheit in there when it was 
+    below freezing outside. 
+    <p/>
+    Great work, guys, but <i>I'm cold.</i> Can we do a priority check 
+    here? 
+    <btw topic="highchair">
+      <p/>
+      Of course, life is always easier at base camp. The task of 
+      elimination on the upper mountain is 
+      <a href="teacher?query=$$highchair">another story.</a>
+    </btw>
+  </answer>
+ 
+  <answer topic="highchair" offer="no" about="another crappy story">
+    <img src="evm292.jpg" align="right"/>
+    So there I was at Camp 5. It was cold. The wind was blowing big 
+    time... not as big as when the camp got obliterated a few weeks 
+    earlier, but plenty windy enough... maybe gusting to 70MPH. And, I
+    had to... well, I had to <i>go.</i> 
+    <p/>
+    This may strike you as funny, but it didn't strike me as very 
+    funny at all at the time. It was cold enough and windy enough that
+    freezing flesh was a serious consideration. Luckily, I had a down 
+    suit with the right zipper ergonomics, so I could crouch, facing 
+    into the wind for stability, unzip the back flap, and my operating
+    equipment would be reasonably sheltered from the worst of the 
+    weather. 
+    <p/>
+    Having completed the task, I zipped back up, and turned around to 
+    inspect the quality of my work, as you do... after all, at high 
+    altitude the stool consistency provides one metric of health. <i> 
+    But there was nothing there.</i> That's right... my turd had been 
+    swept away by the winds of Everest. 
+    <p/>
+    The fate of that turd remains a mystery, but we can speculate 
+    about its final resting place. From 
+    <a href="teacher?query=$$camp5">Camp 5,</a>
+    the terrain fell away rapidly in the wind direction, toward Rapiu 
+    La, a pass at the base of the Northeast Ridge some 3700 feet 
+    below. There is some chance that it cleared the pass, like a field
+    goal from the 50 yard line, given the help of what you might call 
+    a "tail wind". 
+    <p/>
+    If it did, it would have crossed the international border from 
+    China into Nepal. I hope it didn't. I'm sure there'd be some forms
+    to fill out, and I've done enough "paperwork" on this already. 
+  </answer>
+ 
+  <question topic="carry">How much weight must you carry?</question>
+  <question topic="carry">How heavy were your packs?</question>
+  <question topic="carry">Why does it take so long?</question>
+  <answer topic="carry" about="moving gear up Everest" 
+  next="acclim,typday,gear,clothing,food">
+    Much of the time spent on Everest involves moving gear up the 
+    mountain. Sorta like this: 
+    <ul>
+      <li> Carry lots and lots and lots of stuff to Camp 1.</li>
+      <li> Then, carry lots and lots of stuff to Camp 2.</li>
+      <li> Then, carry lots of stuff to Camp 3.</li>
+      <li> Ooops! Nothing left for Camp 4.</li>
+    </ul>
+    You get the idea. It's a supply pyramid. The very act of 
+    provisioning higher camps depletes supplies in lower camps. To 
+    place a unit at the highest camp, you might need to place ten 
+    units at Camp 1. 
+    <p/>
+    Don't get me wrong. It's not all wasted time. In the process, we 
+    are 
+    <a href="teacher?query=$$acclim">acclimatizing to the altitude 
+    </a>
+    ... a time consuming but necessary process. 
+  </answer>
+ 
+  <question topic="norman">Norman</question>
+  <question topic="norman">Taiwanese</question>
+  <answer topic="norman" about="a momentary triumph">
+    <img src="evm199.jpg" align="right"/>
+    His Anglicized name was Norman. He was strong-willed. He told a 
+    fellow climber that he sold his car and his home to go to Everest.
+    It fits. He told another climber he'd rather die than return to 
+    Taiwan without the summit. I don't know if he got his wish: He 
+    died. He did not return to Taiwan. He did reach the summit. 
+    <p/>
+    The Taiwanese team was comprised of a large number of very 
+    motivated, mostly inexperienced, climbers. For many, their highest
+    previous ascent was the highest mountain in Taiwan (13,000 
+    feet)... thus, even upon arrival in Base Camp, they were higher 
+    than they'd ever been in their lives. To exacerbate things, they 
+    had an extremely aggressive schedule which did not give them much 
+    time to acclimatise. 
+    <p/>
+    Most of the times I met Taiwanese climbers, they were stumbling 
+    along the East Rongbuk Glacier in full high-altitude down and 
+    windsuits, reeling from severe altitude sickness. Towards the end 
+    of the climb, I found myself (by then, with the benefit of 3 
+    months of acclimatisation, luxuriating in the oxygen some 10,000 
+    feet below my high point) trotting past them in the shorts and a 
+    polypro fleece jacket... 
+    <a href="teacher?query=$$acclim">acclimatization</a>
+    is a wonderful thing, and the lack thereof... well, frankly, it 
+    sucks. 
+    <p/>
+    <br clear="all"/> 
+    <img src="evm135.jpg" align="right"/>
+    They were likeable guys, every one I met. I've spent some time in 
+    Taiwan on business, and had a pen from a Taipei hotel which helped
+    make me a Real Person in their eyes. They gave me candy, tried out
+    their English. Their English was dramatically better than my 
+    Chinese (like, I could say Hello and Thank You). Their lead 
+    Sherpa, Moti... well, what can I say... he had a difficult job, 
+    yet he drove higher under the most difficult conditions. 
+    <p/>
+    They must be off the mountain by May 15... another schedule 
+    constraint. The weather was not cooperating, and everyone pretty 
+    well concluded that the Taiwanese would go home empty-handed. But 
+    suddenly there was an opening. A team of four... two Taiwanese, 
+    two Sherpas... were fortunate enough to be in position for the 
+    all-or-nothing attempt. 
+    <p/>
+    It was the first summit attempt from the North that year. I 
+    happened to be at base, watching them make slow progress by 
+    telescope. One of the Taiwanese became ill, and one of the Sherpas
+    was having a difficult time. It was late... too late to make the 
+    summit safely. The two sherpas, and the ill Taiwanese, descended. 
+    Norman, however, elected to press on. 
+    <p/>
+    Norman reached the summit at 3PM... very late to be so far out on 
+    a limb. I made my way over to the Taiwanese base camp, maybe half 
+    a mile away. The climbing leader was jubilant... hugged me... 
+    asked for some assistance in formulating his English press 
+    release, to be sent out by the Canadian's satellite ground 
+    station, announcing Norman's triumph. 
+    <p/>
+    Wind and clouds moved in. We could no longer monitor his progress.
+    Norman lost his way, and descended down the north side of the 
+    summit pyramid, well off route. His oxygen gone, he settled in for
+    the long, cold bivouac ahead. Sleeping meant certain death. He was
+    able to describe his predicament in some detail before the bitter 
+    cold rendered his radio batteries useless for transmitting... but 
+    there was still enough battery to listen. He would signal by 
+    clicking the transmit button. His countrymen were up all night, 
+    with him by radio, trying to keep him awake. 
+    <p/>
+    Somewhere between 5 and 6 AM, several of the Taiwanese came over 
+    to the American camp, where we had several telescopes and a radio 
+    with a directional antenna pointed at Norman. After some amount of
+    scanning the face, we spotted him. He was moving. Norman was 
+    alive! 
+    <p/>
+    Our climbing leader, Eric, had been four expeditions to the North 
+    Side of Everest, including the first American expedition to that 
+    side when the Chinese opened Tibet to foreigners in 1980. He was 
+    well familiar with the terrain, and could provide guidance to help
+    Norman get back on route. It was apparent that he heard us... 
+    despite the fact that he could no longer signal... given the fact 
+    that he changed direction to avoid a blind alley that he was 
+    heading towards. 
+    <p/>
+    <br clear="all"/> 
+    <img src="evrtaiw.jpg" align="right"/>
+    But the battery did not hold. Norman was moving slowly... and now,
+    he was moving in the wrong direction, and did not respond to radio
+    calls. We watched him move slowly, painfully, inexorably towards 
+    an obstacle we could see so easily from below. At a point where he
+    could see no way forward, he sat down to think. Exhausted, without
+    sleep, without oxygen, he sat down to die. 
+    <p/>
+    Due to some technical difficulties with the satellite 
+    communications, the report of his success, so carefully composed 
+    by his climbing leader, had not been sent. The climbing leader, 
+    however, insisted that the original triumphant message be sent 
+    absolutely unchanged... to give Norman a moment of glory back in 
+    Taiwan before the tragic ending to the story was revealed. 
+  </answer>
+ 
+  <question topic="hafe">fart</question>
+  <question topic="hafe">What is HAFE?</question>
+  <question topic="hafe">Do you fart a lot at altitude?</question>
+  <question topic="hafe">Why do climbers fart more?</question>
+  <answer topic="hafe" about="gas under high pressure" 
+  next="health,acclim,oxy,water,food" offer="no">
+    Many climbers are knowledgeable about HAPE (High Altitude 
+    Pulmonary Edema) or HACE (High Altitude Cerebral Edema). But there
+    is a third hazard of altitude, far more common than the first two:
+    HAFE (High Altitude Flatulence Expulsion). 
+    <p/>
+    HAFE is exacerbated by carbohydrate-rich high altitude diets, 
+    combined with a formidable pressure differential between the 
+    digestive tract and the tenuous atmosphere. Although both HAPE and
+    HACE have been subject to considerable scholarly study by medical 
+    researchers, thus far HAFE has primarily been studied 
+    involuntarily by countless climbers, confined to small tents for 
+    long periods of time, sleeping in mummy bags which <i>almost</i> 
+    seal. 
+    <p/>
+    There are those who argue that HAFE, properly managed, could offer
+    advantages to climbers at extreme altitudes. For example, consider
+    the benefits of a tent which, due to internal pressure, required 
+    no supporting poles. One fewer thing to carry, and one fewer thing
+    to break under high "wind" conditions... 
+  </answer>
+ 
+  <question topic="wash">It must be hard to stay clean.</question>
+  <question topic="wash">How do you bathe?</question>
+  <question topic="wash">How do you wash?</question>
+  <question topic="wash">How long since you took a shower?</question>
+  <answer topic="wash" about="how I stay clean" 
+  next="toilet,food,water,typday,clothing">
+    <img src="evm055.jpg" align="right"/>
+    Well, hmmm... stuck below freezing for three months. How to take a
+    shower? 
+    <p/>
+    Hygiene does take a back seat on Everest, like so many things. To 
+    be honest, though, it's mostly okay. The cold conditions mean you 
+    don't really sweat, and high on the mountain you are more or less 
+    in a clean zone. But those base camp cleaning sessions are 
+    admittedly too few and far between. 
+    <p/>
+    There are advantages, you understand. For example, what better way
+    to plan the route than to model the upper mountain using Curtis' 
+    greasy hair? I mean, if his hair were clean, we could all get lost
+    and die. Which is better? 
+    <p/>
+    From previous expeditions, I've learned to bring along the "Red 
+    Laundry Bag of Death" for transporting home those sets of polypro 
+    underwear that haven't been washed for a month or two. 
+    <p/>
+    Yes, that's right, pack it at the top of the duffel... if anyone 
+    tries to ransack your luggage, or if a customs guy gets too nosey,
+    let them die in agony... 
+  </answer>
+ 
+  <question topic="mandm">What happened to Mark and Mike</question>
+  <answer topic="mandm" 
+  about="Mike and Mark reaching the summit of..." next="rhein">
+    <img src="evm193.jpg" align="right"/>
+    <i>May 25, 1994. Camp 6, Everest North Face.</i> This tenuous 
+    excuse for a camp is the highest mountain camp in the world, at 
+    27,500 feet. We were the highest people on Earth. 
+    <p/>
+    My spirits were that high, or higher. I'd come so far, climbed so 
+    high... surely the last 1500 feet to the top of the world could be
+    no worse than the distance I'd already climbed. Conditions were 
+    good, and I was calm, looking forward a bit starry-eyed to the 
+    summit of Everest, now so near. 
+    <p/>
+    But nothing came naturally at this altitude... and communications 
+    to Base Camp flowed more easily than between tents. Unbeknownst to
+    me, and only a few yards away, one member of our summit team had 
+    suffered a minor stroke. Another had an upper respiratory 
+    disorder, destined to get worse. 
+    <p/>
+    Alex, in radio contact with Eric at Base Camp, agreed that these 
+    two would have to descend immediately, with two of us to assist. 
+    Alex and I were elected. 
+    <p/>
+    When I got the word I was going down, without the background 
+    information, I hit the roof. (It was, after all, a small tent.) I 
+    had worked hard for months to get to this place, the weather 
+    seemed good, I felt strong. I needed to have somebody look me in 
+    the eye and explain to me why my descent was suddenly necessary. 
+    <p/>
+    The person who got that job was Mike Rheinberger. I'd spent a lot 
+    of time with Mike in the months leading up to this point. Outside 
+    of climbing, we had a number of things in common. But for a person
+    as well rounded as Mike, everyone could say that. 
+    <p/>
+    Mike said very little. He struggled a bit for words... said that 
+    he knew the route well, and even with his experience, the route 
+    ahead was at the "very limit of (his) ability"... shuffling a bit,
+    he said he was more prepared, that his equipment was better than 
+    mine, that he was prepared to bivouac... conditions were not good,
+    that the other two needed my support. Minutes later, I was on the 
+    way down the mountain. 
+    <p/>
+    Mike (from Australia), Mark (from New Zealand) and Dave (from 
+    Alaska) proceeded up the mountain the following morning. Rising 
+    around midnight to begin the arduous process of preparing for the 
+    ascent, eating, and melting enough snow to provide several litre's
+    water apiece, they were underway by 4AM. 
+    <p/>
+    Dave, who had been my tentmate at Camp 6, had a timetable in mind.
+    If he did not reach certain points by certain times, he would turn
+    back. He did not trust his judgement with the summit so close. 
+    Decide ahead of time; stick to it. I'd had a similar discussion 
+    with Mike the day before. We talked of the "Everest Effect", 
+    causing people to stretch their better judgement just because... 
+    well, 
+    <a href="teacher?query=$$cuz">Because It's There.</a>
+    Remember Norman? 
+    <a href="teacher?query=$$norman">Norman?</a>
+    <p/>
+    Dave turned around partway up the ridge. It was a good thing; he 
+    was wasted, and had a tough descent. But as he descended, he 
+    passed Mike and Mark, still ascending, even more slowly. 
+    <p/>
+    <img src="evm009.jpg" align="right"/>
+    You could hardly ask for a more experienced team. Mark, a New 
+    Zealand/Maori, seemed to carry with him aura of boundless 
+    competence, confidence, and good humour; you could not help but 
+    feel it anytime Mark was around. Among his many mountaineering 
+    accomplishments, he'd climbed Everest once before from the North, 
+    in 1991. Mike, a quiet and perceptive Australian, had been on 
+    seven Everest expeditions, on both the Tibet side and the Nepal 
+    side... and had been thwarted each time. 
+    <p/>
+    Mike, it seemed, had decided that this was it. Several times, Mark
+    implored Mike to turn back. Mike was moving slowly, but he was 
+    only moving upward. 
+    <p/>
+    Dave's deadline for the summit, if I remember right, was noon. 
+    Norman got there at 3PM, and died during descent. Mike and Mark 
+    got there at 7PM, just as the sun was going down. 
+    <p/>
+    Mark remembers it as being a most remarkable event... the clouds 
+    below, the colour of sunset... the spectacle of Mike finally 
+    reaching the summit, after so many years, so many attempts, so 
+    many hardships and so many disappointments... Mike fell to the 
+    ground and kissed the summit of Everest. 
+    <p/>
+    The glory was short-lived. They set about digging in for the 
+    highest bivouac in the history of Man, 20 metres below the summit 
+    of Everest. Various body parts froze. Oxygen ran out. Water and 
+    food were gone. 
+    <p/>
+    On May 27, they made their way down the hill. Mike developed pain 
+    in the upper legs, probably blood clots. If they broke up and 
+    reached the heart, it would be instantly fatal. Moving was the 
+    worst thing he could do. It was also the only thing he could do to
+    survive. 
+    <p/>
+    Mike became delirious. Mark's feet and parts of his hands froze. 
+    There is a snowfield where we could see them quite clearly from 
+    Camp III, where I was at that point. We cheered as they crossed 
+    it, suddenly surging forward; and our spirits surged with them. 
+    <p/>
+    But Mike's eyes developed retinal hemorrages. He was blind, 
+    dehydrated, delirious, exhausted, the highest person in the world 
+    and a long way from home. The day wore on. They were hardly 
+    moving. 
+    <p/>
+    The next summit team, ascending from Camp 6, became a rescue 
+    mission. Several people saw that their long journey, and their 
+    months of effort, were not destined to culminate in the summit of 
+    Everest; instead, they'd culminate in the placing of an oxygen 
+    bottle which, with luck, Mike and Mark might reach... 
+    <p/>
+    As the sun set on the 27th, Mike and Mark were between the 1st and
+    2nd Steps. Mark descended to get a bottle of oxygen stashed at the
+    top of the 1st Step. When he got there, there was a long radio 
+    conversation in an attempt to get Mark to descend alone. I don't 
+    want to talk about this a whole lot. It was pretty apparent that 
+    the best result one could hope for would be to get Mark back 
+    alive. At one point, Eric said on the radio, "Mark, I don't want 
+    to be the one to tell your wife..." About this time, Mike Perry, 
+    Mark's longtime friend and fellow New Zealander, arrived in Base 
+    Camp. He got on the radio, and with admirable (decisive?) 
+    firmness, said... "Mark... <I>come down... NOW...</I>" 
+    <p/>
+    In the end, Mark was coaxed further down the hill. Jason, from the
+    next team, met him below the 1st step. Without Mike, the two 
+    climbers descended from the 1st Step to the relative comforts of 
+    Camp 6. 
+    <p/>
+    <a href="teacher?query=$$rhein">Goodbye, Mike.</a>
+    <p/>
+    The next morning, Mike was spotted some 500 feet below the route. 
+    I will guess that happened soon after Mark left for the oxygen... 
+    before any of the above conversations. There is no question in my 
+    mind that Mark's descent was the right thing for him to do. There 
+    is also no question in my mind that Mark will relive that evening,
+    in his mind, many, many times, wondering... 
+  </answer>
+</book>
