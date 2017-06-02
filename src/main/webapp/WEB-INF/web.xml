@@ -5,11 +5,11 @@
   xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
   version="2.5">
   <servlet>
-    <servlet-name>everest</servlet-name>
-    <servlet-class>com.danholle.everest.teacher</servlet-class>
+    <servlet-name>teacher</servlet-name>
+    <servlet-class>com.danholle.teacher.teacher</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>everest</servlet-name>
+    <servlet-name>teacher</servlet-name>
     <url-pattern>/teacher</url-pattern>
   </servlet-mapping>
 </web-app>
